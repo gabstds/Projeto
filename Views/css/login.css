@@ -84,6 +84,11 @@ header {
     grid-column: 1;
 }
 
+.coluna-esquerda img {
+    width: 250px;
+    left: 800px;
+}
+
 .coluna-direita {
     width: 100%;
     height: 50%;
