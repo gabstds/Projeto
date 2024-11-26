@@ -22,10 +22,16 @@ body {
     position: relative;
 }
 
+.user {
+    display: flex;
+    gap: 0.5rem;
+}
 
-
-
-
+.user {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px; 
+}
 
 
 /* rodapé */
