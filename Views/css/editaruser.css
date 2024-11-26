@@ -1,0 +1,145 @@
+.actor-regular {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;  /* Alinha a logo à esquerda */
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;  
+    height: auto;  
+}
+
+
+header {
+    background-color: #7B9E44;  
+    height: 70px;  
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
+    align-items: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.btn {
+    background-color: #204b22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.user img {
+    width: auto;
+    height: 33px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #F1F1E7;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    margin: 35px 60px 35px 60px;
+    grid-template-columns: 200px 200px 100px 350px;
+    grid-template-rows: 7 repeat(7fr);
+}
+
+.perfil_img {
+    height: 300px;
+    width: 300;
+    float: left;
+    left: 20px;
+    grid-column: 1 / -2;
+    grid-row: 1;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #3A6E29;
+    grid-row: 1;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #000000;
+    grid-row: 3;
+}
+
+.dados{
+    font-family: "Actor", sans-serif;
+    font-weight: 20px;
+    color: #000000;
+    left: 100px;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+form{
+    gap: 15px;
+    grid-column: 1 / -2;
+    grid-row: 3 / -1;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #3A6E29;
+    font-size: 16px;
+    grid-row: 3 / -1;
+}
+
+.botao_salvar{
+    background-color: #941616;
+    color:#ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7B9E44;
+    padding: 10px;
+    left: 0; 
+    bottom: 0;
+    width: 100%; 
+    height: 15px;
+    border: none;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}

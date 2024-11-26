@@ -1,0 +1,212 @@
+
+.actor-regular {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.logo {
+    position: absolute;  
+    top: 50%;  
+    left: 20px;  
+    transform: translateY(-50%);  /* centraliza verticalmente a logo */
+}
+
+
+.logo img {
+    width: 50px;  
+    height: auto;  
+}
+
+header {
+    position: relative; 
+    background-color: #7B9E44;  
+    height: 70px;  
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    margin-left: auto; 
+}
+
+.btn {
+    background-color: #204b22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao_user{
+    display: inline-block;
+    position: relative;
+}
+
+.botao_user:hover{
+    background-color: #1F611D;
+}
+
+.user {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto; 
+    width: 50px;  
+    height: auto;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    display: inline-block; 
+}
+
+.user img {
+    width: auto;
+    height: 33px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+body {
+    background-color: #F1F1E7;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #3A6E29;
+    grid-row: 1;
+}
+
+.bloco {
+    display: grid; 
+    background-color: #F1F1E7; 
+    border: 5px solid #1F611D;
+    height: auto;
+    padding: 10px; 
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-bottom: 70px;
+    grid-template-rows: 90px 100px 260px 50px; 
+    row-gap: 1px; 
+    grid-template-columns: 50px 400px 200px;
+    column-gap: 80px;
+    align-items: stretch; 
+    position: relative;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: #000000;
+    grid-column: 1 / -2;
+    grid-row: 1;
+    left: 55px;
+}
+
+.perfil_img {
+    height: 100px;
+    width: auto;
+    float: left;
+    left: 20px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+.dados{
+        font-family: "Actor", sans-serif;
+        font-weight: 20px;
+        color: #000000;
+        left: 100px;
+        grid-row: 2;
+        grid-column: 2;
+      }
+
+.texto {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 1/-2; 
+    grid-row: 3;
+    text-align: justify;
+}
+
+.imagem {
+    width: 300px;  
+    height: auto;
+    grid-column: 3;  
+    grid-row: 2/-1;
+}
+
+.icone_coracao {
+    width: 30px;
+    height: auto;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.botao_postagem {
+    background-color: #941616; 
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.botao_postagem p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    transform: translateY(-20%);
+}
+
+.botao_postagem:hover {
+    background-color: #b52d2d;
+}
+
+.seta {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    top: 50%; 
+    right: -80px;
+    transform: translateY(-50%); 
+    cursor: pointer;
+}
+
+.seta img {
+    width: auto;
+    height: 100%; 
+    object-fit: contain;
+}
+
+footer {
+    background-color: #7B9E44;
+    padding: 10px;
+    left: 0; 
+    bottom: 0;
+    width: 100%; 
+    height: 15px;
+    border: none;
+    margin: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
