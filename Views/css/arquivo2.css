@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo corpo da página */
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.7; 
+    color:#6b8e23; 
+    background-color: #ffffff; 
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #6b8e23;
+    color: #ffffff; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* rodapé */
+footer {
+    background-color: #7B9E44;
+    color:#ffffff;
+    padding: 10px; 
+    text-align: left;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    border: none;
+    margin: 0;
+}
