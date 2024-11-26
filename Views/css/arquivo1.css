@@ -30,6 +30,26 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+.user {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto; 
+    width: 50px;  
+    height: auto;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    display: inline-block; 
+}
+
+.user img {
+    width: auto;
+    height: 33px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
 /*MENU*/
 header nav a { 
     color:#ffffff;
