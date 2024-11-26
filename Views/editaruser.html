@@ -12,18 +12,21 @@
         <div class="logo">
             <img src="media/logo_codecrafters_redimensionada.png" alt="Logo empresa CodeCrafters">
         </div>
-        <div class="botoes">
-            <button class="btn">HomePage</button>
-            <button class="btn">Agendamentos</button>
-            <button class="btn">Comunidade</button>
-            <button class="btn">Importância</button>
-        </div>
-            <div class="user"> 
-                <img src="media/user_botao.png" alt="Botão cadastro">
-            </div> 
-    </header> 
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">HOMEPAGE</a></li>
+                    <li><a href="#">AGENDAMENTOS</a></li>
+                    <li><a href="#">COMUNIDADE</a></li>
+                    <li><a href="#">IMPORTÂNCIA</a></li>
+                </ul>
+            </nav>
+                <div class="menu-imagens-direita">
+                    <img src="media/user.png" alt="Símbolo user">
+                </div>
+            </div>
+        </header>
     <main>
-    <div class="container">
+    <div class="container_grid">
         <div class="perfil_img">
             <img src="media/imagemperfileditar.png" alt="Imagem de perfil">
         </div>
@@ -36,23 +39,26 @@
             </ul>
             <ul> <img src="media/iconeexcluir.png" alt="Excluir perfil"> Excluir perfil </ul>
         </div>
-        <div class="input-container">
+        <h1> Informações Pessoais </h1>
+        <div class="input_linha2">
             <label for="nome">Nome Completo</label>
             <input type="text" id="nome" name="nome" placeholder="Alterar o nome">
           </div>
           <br>
-          <div class="input-container">
-            <label for="senha">Senha</label>
+          <div class="input_linha3">
+            <label for="senha"></label>
             <input type="password" id="senha" name="senha" placeholder="Alterar a senha">
           </div>
-          <div class="input-container">
-            <label for="cpf">CPF</label>
+          <div class="input_linha1">
+            <label for="cpf"></label>
             <input type="text" id="cpf" name="cpf" placeholder="Alterar CPF">
-            <div class="input-container">
-            <label for="cep">CEP</label>
+            <div class="input_linha2">
+            <label for="cep"></label>
             <input type="text" id="cep" name="cep" placeholder="Alterar CEP">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="Alterar E-mail">
+            <div class="input_linha3">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Alterar E-mail">
+            </div>
           </div>
     </div>
     </main>
@@ -62,4 +68,4 @@
     </div>
     </footer>
 </body>
-</html>
+</html>-
