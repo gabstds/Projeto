@@ -5,7 +5,7 @@
   }
   
 
-  .logo {
+.logo {
     display: flex;
     justify-content: flex-start;  /* Alinha a logo à esquerda */
     align-items: center;
@@ -27,34 +27,76 @@ header {
     align-items: center;
 }
 
-.botoes {
+.menu-container {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap: 15px; 
-}
-
-.btn {
-    background-color: #204b22;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.user {
-    display: flex;
-    justify-content: center; 
     align-items: center;
-    cursor: pointer;
+    justify-content: space-between; 
+    background: #6b8e4e;
+    padding: 1rem;
 }
 
 
-.user img {
-    width: auto;
-    height: 33px;
-    object-fit: cover;
+.menu-texto h1{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.0em
+
+}
+
+.menu li a:hover {
+    color:#C7E0A9;
+}
+
+.menu-imagens-direita {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-imagens-direita img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container img {
+    width: 250px;
+}
+
+.container h1 {
+    color: #6b8e4e;
+}
+
+.container p {
+    color:#6b8e4e
 }
 
 body {
@@ -64,10 +106,10 @@ body {
     overflow-x: hidden;
 }
 
-.container {
+.container_grid {
     display: grid;
     margin: 35px 60px 35px 60px;
-    grid-template-columns: 200px 200px 100px 350px;
+    grid-template-columns: 200px 200px 350px;
     grid-template-rows: repeat(2,auto) repeat(4, 1fr);
 }
 
@@ -81,18 +123,11 @@ body {
 }
 
 h1{
-    text-align: center;
+    align-items: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: #3A6E29;
     grid-row: 1;
-}
-
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    color: #000000;
-    grid-row: 3;
 }
 
 .dados{
@@ -104,17 +139,30 @@ h2{
     grid-column: 2;
   }
 
-
-  
-  input {
+input{
     padding: 10px;
     font-size: 16px;
-    width: 300px;
-    height: 20px;
+    width: 350px;
+    height: 25px;
     border: 5px solid #1F611D;
     grid-column: 1 / -2;
     grid-row: 3 / -1; 
-  }
+    
+}
+
+.input_linha1 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.input_linha2 {
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+.input_linha3 {
+    grid-row: 4;
+}
 
 .botao_salvar{
     background-color: #941616;

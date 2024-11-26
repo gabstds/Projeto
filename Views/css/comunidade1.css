@@ -3,77 +3,78 @@
     font-family: "Actor", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-
-.logo {
-    position: absolute;  
-    top: 50%;  
-    left: 20px;  
-    transform: translateY(-50%);  /* centraliza verticalmente a logo */
 }
-
+  
+.logo {
+    display: flex;
+    justify-content: flex-start;  /* Alinha a logo à esquerda */
+    align-items: center;
+}
 
 .logo img {
     width: 50px;  
     height: auto;  
 }
 
+
 header {
-    position: relative; 
     background-color: #7B9E44;  
     height: 70px;  
     padding: 0 30px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-}
-
-.botoes {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 15px; 
-    margin-left: auto; 
-}
-
-.btn {
-    background-color: #204b22;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.botao_user{
-    display: inline-block;
-    position: relative;
-}
-
-.botao_user:hover{
-    background-color: #1F611D;
-}
-
-.user {
-    display: flex;
-    justify-content: center; 
+    display: flex; 
+    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
     align-items: center;
-    margin-left: auto; 
-    width: 50px;  
-    height: auto;
-    background-color: transparent;
-    border: 0;
-    position: relative;
-    display: inline-block; 
 }
 
-.user img {
-    width: auto;
-    height: 33px;
-    object-fit: cover;
-    cursor: pointer;
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #6b8e4e;
+    padding: 1rem;
+}
+
+
+.menu-texto h1{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.0em
+
+}
+
+.menu li a:hover {
+    color:#C7E0A9;
+}
+
+.menu-imagens-direita {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-imagens-direita img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px;
 }
 
 body {
