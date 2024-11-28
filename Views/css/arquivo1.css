@@ -24,7 +24,7 @@ header {
     justify-content: space-between; 
     background: #6b8e4e;
     padding: 1rem;
-    right: 400px;
+    right: 4000px;
 }
 
 .menu li a {
@@ -95,7 +95,7 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 /* rodapé */
