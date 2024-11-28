@@ -9,7 +9,9 @@ body {
     line-height: 1.7; 
     color:#6b8e4e; 
     background-color: #ffffff; 
+    
 }
+    
 
 /* Cabeçalho */
 header {
@@ -24,7 +26,14 @@ header {
     justify-content: space-between; 
     background: #6b8e4e;
     padding: 1rem;
-    right: 4000px;
+    margin-right: 100px;
+}
+
+.menutext h1{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1em;
+
 }
 
 .menu li a {
@@ -37,20 +46,21 @@ header {
 
 }
 
-
 .menu li a:hover {
     color:#C7E0A9;
 }
 
-.menu-imagens-direita {
+.botao-user {
     display: flex;
     gap: 0.5rem;
 }
 
-.menu-imagens-direita img {
+.botao-user img {
     width: 50px; 
     height: auto;
-    border-radius: 5px; 
+    border-radius: 3px;
+    margin-left: 50px;
+    
 }
 
 .menu {
@@ -63,21 +73,6 @@ header {
     left: 300px;
 }
 
-
-/* rodapé */
-footer {
-    background-color: #7B9E44;
-    color:#ffffff;
-    padding: 10px; 
-    text-align: left;
-    position: fixed; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    border: none;
-    margin: 0;
-}
-
 .button_cadastro {
     background-color: #A8C095;
     color: #6b8e23;
@@ -88,6 +83,45 @@ footer {
     cursor: pointer;
 }
 
+/*Corpo do site */
+
+.container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    column-gap: 40px;
+}
+
+.text {
+    margin-top: 100px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.text h3 {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 40px;
+    color:#6b8e4e; 
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.text p {
+    font-family:Arial, sans-serif; 
+    font-size: 20px;
+    color:#6b8e4e; 
+    
+}
+
+.img {
+    grid-column: 1;
+    margin-top: 50px;
+    margin-left: 30px;
+    grid-row: 1;
+    width: 500px;
+}
+
+
 .button_leis {
     background-color: #A8C095;
     color: #6b8e23;
@@ -96,6 +130,8 @@ footer {
     border-radius: 5px;
     font-size: 16px;
     cursor:pointer;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /* rodapé */
