@@ -14,7 +14,7 @@ body {
 /* Cabeçalho */
 header {
     background: #6b8e4e;
-    color: white;
+    color:#ffffff;
     padding: 0rem;
 }
 
@@ -28,7 +28,7 @@ header {
 
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
     transition: color 0.3s;
     padding: 0.5rem 0.8rem;
@@ -64,7 +64,7 @@ header {
 
 /* rodapé */
 footer {
-    background-color: #7B9E44;
+    background-color: #6b8e4e;
     color:#ffffff;
     padding: 10px; 
     text-align: left;
