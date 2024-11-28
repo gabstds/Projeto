@@ -7,21 +7,78 @@
 body {
     font-family: Arial, sans-serif; 
     line-height: 1.7; 
-    color:#6b8e23; 
+    color:#6b8e4e; 
     background-color: #ffffff; 
 }
 
 /* Cabeçalho */
-.header {
-    background-color: #6b8e23;
-    color: #ffffff; 
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+header {
+    background: #6b8e4e;
+    color: white;
+    padding: 0rem;
 }
-button {
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #6b8e4e;
+    padding: 1rem;
+    right: 400px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.0em;
+
+}
+
+
+.menu li a:hover {
+    color:#C7E0A9;
+}
+
+.menu-imagens-direita {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-imagens-direita img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
+}
+
+
+/* rodapé */
+footer {
+    background-color: #7B9E44;
+    color:#ffffff;
+    padding: 10px; 
+    text-align: left;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    border: none;
+    margin: 0;
+}
+
+.button_cadastro {
     background-color: #A8C095;
     color: #6b8e23;
     border: none;
@@ -30,35 +87,8 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-.user {
-    display: flex;
-    gap: 0.5rem;
-}
 
-.user {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px; 
-}
-
-/*MENU*/
-header nav a { 
-    color:#ffffff;
-    margin: 0 30px;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
-/* Estilo principal */
-main {
-    padding: 25px; 
-    background-color: #f7f7f7;
-display: grid;
-grid-template-columns: repeat(2,2fr)
-}
-
-button {
+.button_leis {
     background-color: #A8C095;
     color: #6b8e23;
     border: none;
@@ -81,6 +111,3 @@ footer {
     border: none;
     margin: 0;
 }
-
-
-
