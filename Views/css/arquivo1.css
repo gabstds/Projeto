@@ -50,15 +50,17 @@ header {
     color:#C7E0A9;
 }
 
-.menu-imagens-direita {
+.botao-user {
     display: flex;
     gap: 0.5rem;
 }
 
-.menu-imagens-direita img {
+.botao-user img {
     width: 50px; 
     height: auto;
-    border-radius: 5px; 
+    border-radius: 3px;
+    margin-left: 50px;
+    
 }
 
 .menu {
@@ -84,15 +86,31 @@ header {
 /*Corpo do site */
 
 .container {
+    display: grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
+    column-gap: 40px;
 }
 
 .text {
-    margin-left: 600px;
     margin-top: 100px;
     grid-column: 2;
     grid-row: 1;
+}
+
+.text h3 {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 40px;
+    color:#6b8e4e; 
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.text p {
+    font-family:Arial, sans-serif; 
+    font-size: 20px;
+    color:#6b8e4e; 
+    
 }
 
 .img {
@@ -100,6 +118,7 @@ header {
     margin-top: 50px;
     margin-left: 30px;
     grid-row: 1;
+    width: 500px;
 }
 
 
@@ -111,6 +130,8 @@ header {
     border-radius: 5px;
     font-size: 16px;
     cursor:pointer;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /* rodapé */
