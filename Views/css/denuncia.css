@@ -1,0 +1,217 @@
+.actor-regular {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.logo {
+    display: flex;
+    justify-content: flex-start;  /* Alinha a logo à esquerda */
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;  
+    height: auto;  
+}
+
+
+header {
+    background-color: #7B9E44;  
+    height: 70px;  
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #6b8e4e;
+    padding: 1rem;
+}
+
+
+.menu-texto h1{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.0em
+
+}
+
+.menu li a:hover {
+    color:#C7E0A9;
+}
+
+.menu-imagens-direita {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-imagens-direita img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #F1F1E7;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #3A6E29;
+    grid-row: 1;
+}
+
+.bloco {
+    display: grid; 
+    background-color: #F1F1E7; 
+    border: 5px solid #1F611D;
+    height: auto;
+    padding: 10px; 
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-bottom: 70px;
+    grid-template-rows: 90px 100px 260px 50px; 
+    row-gap: 1px; 
+    grid-template-columns: 50px 400px 200px;
+    column-gap: 80px;
+    align-items: stretch; 
+    position: relative;
+}
+
+input{
+    border: 1px solid #6f9e6f;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    width: 300px;
+    height: 50px;
+}
+
+.titulo_input {
+    grid-column: 1 / -2;
+    grid-row: 1;
+}
+
+.texto_input {
+    grid-column: 1/-2; 
+    grid-row: 3;
+    width: 300px;
+    height: 500px;
+}
+
+.perfil_img {
+    height: 100px;
+    width: auto;
+    float: left;
+    left: 20px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+.dados{
+        font-family: "Actor", sans-serif;
+        font-weight: 20px;
+        color: #000000;
+        left: 100px;
+        grid-row: 2;
+        grid-column: 2;
+      }
+
+
+.imagem {
+    width: 300px;  
+    height: auto;
+    grid-column: 3;  
+    grid-row: 2/-1;
+}
+
+.icone_coracao {
+    width: 30px;
+    height: auto;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.botao_postagem {
+    background-color: #941616; 
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.botao_postagem p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    transform: translateY(-20%);
+}
+
+.botao_postagem:hover {
+    background-color: #b52d2d;
+}
+
+.seta {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    top: 50%; 
+    right: -80px;
+    transform: translateY(-50%); 
+    cursor: pointer;
+}
+
+.seta img {
+    width: auto;
+    height: 100%; 
+    object-fit: contain;
+}
+
+footer {
+    background-color: #7B9E44;
+    padding: 10px;
+    left: 0; 
+    bottom: 0;
+    width: 100%; 
+    height: 15px;
+    border: none;
+    margin: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
