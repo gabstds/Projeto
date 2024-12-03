@@ -1,170 +1,179 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* { /* Padrão global */
+    margin: 0; /* Remove margem dos elementos*/
+    padding: 0; /* Remove espaçamento dos elementos*/
+    box-sizing: border-box; /* Facilita o controle das dimensões*/
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0e5;
-    overflow-x: hidden;
+    font-family: Arial, sans-serif; /* Define uma fonte padrão*/
+    background-color: #f0f0e5; /* Define a cor de fundo*/
+    overflow-x: hidden; /* Desabilita o scroll horizontal*/
 }
 
 
 header {
-    background: #6b8e4e;
-    color: white;
-    padding: 0rem;
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho*/
+    color: white; /* Define a cor do texto do cabeçalho*/
+    padding: 0rem; /* Define o espaçamento do caeçalho*/
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex; /* Define um layout flexível*/
+    align-items: center; /* Alinha os itens no centro*/
+    justify-content: space-between; /* Distribui os itens com espaço máximo entre eles*/
+    background: #6b8e4e; /* Define a cor de fundo do container*/
+    padding: 1rem; /* Define o espaçamento do container*/
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex; /* Define um layout flexível*/
+    gap: 0.5rem; /* Adiciona espaçamento entre os itens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px; 
+    width: 50px; /* Define a largura da imagem */
+    height: auto; /* Ajusta a altura proporcionalmente à largura*/
+    border-radius: 5px; /*Arredonda as bordas*/
 }
 
 .menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
+    display: flex; /* Define um layout flexível*/
+    gap: 0.5rem; /* Adiciona espaçamento entre os itens */
+    font-size: 1em; /* Define o tamanho da fonte*/
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none; /* Remove os marcadores dos itens da lista*/
+    display: flex; /* Define um layout flexível*/
+    gap: 1rem; /* Adiciona espaçamento entre os itens */
+    flex-grow: 1; /* Permite que o menu ocupe espaço adicional*/
+    margin: 0 1rem; /* Adiciona margens */
+    position: relative; /* Permite ajustar a posição em relação à posição padrão*/
+    left: 300px; /* Move o menu para a direita*/
 }
 
 .menu li a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
+    text-decoration: none; /* Remove sublinhados dos links*/
+    color: white; /* Define a cor do texto*/
+    font-weight: normal; /* Define o peso da fonte como normal*/
+    transition: color 0.3s; /* Cria uma animação ao mudar a cor*/
+    padding: 0.5rem 0.8rem; /* Adiciona espaçamento interno ao link*/
+    font-size: 1.0em /* Define o tamanho da fonte*/
 
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color:#C7E0A9; /* Muda a cor do link ao passar o mouse*/
 }
 
 .container {
-    display: grid;
-    max-width: 1200px;
-    background-color: #f0f0e5;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid; /* Utiliza um layout baseado em grid*/
+    max-width: 1200px; /* Limita a largura máxima do container*/
+    background-color: #f0f0e5; /* Define o fundo do container*/
+    grid-template-columns: repeat(3, 1fr); /* Divide o grid em 3 colunas iguais*/
 }
 
 .coluna-esquerda {
-    width: 100%;
-    padding: 40px;
-    background-color: #f0f0e5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: 2px solid #e0e0d0;
-    grid-column: 1;
+    width: 100%; /* Define a largura como total*/
+    padding: 40px; /* Adiciona espaçamento interno*/
+    background-color: #f0f0e5; /* Define o fundo*/
+    display: flex; /* Organiza os elementos verticalmente*/
+    flex-direction: column; /* Organiza os itens em uma coluna*/
+    align-items: center; /* Centraliza os itens horizontalmente*/
+    border-right: 2px solid #e0e0d0; /* Adiciona uma borda à direita*/
+    grid-column: 1; /* Define a coluna como a primeira do grid*/
 }
 
 .coluna-esquerda img {
-    width: 250px;
-    left: 800px;
+    width: 250px; /* Define a largura da imagem*/
+    left: 800px; /* Move a imagem para a direita*/
 }
 
 .coluna-direita {
-    width: 100%;
-    height: 50%;
-    background-color: #f0f0e5;
-    grid-column: 2/-1;
+    width: 100%; /* Define a largura da coluna como 100% do espaço disponível*/
+    height: 50%; /* Define a altura como 50% do espaço pai*/
+    background-color: #f0f0e5; /* Define a cor do fundo da coluna*/
+    grid-column: 2/-1; /* Faz a coluna ocupar o espaço das colunas de número 2 até a última no grid layout.*/
    
 }
 
 .coluna-direita > img {
-    width: 1150px;
-    height: auto;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 1150px;/* Define a largura da imagem*/
+    height: auto; /* Ajusta a altura proporcionalmente à largura*/
+    border-radius: 8px; /* Arredonda as bordas da imagem*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aplica uma sombra sutil ao redor da imagem*/
 }
 
 h2 {
-    color: #4b724f;
-    margin-bottom: 20px;
+    color: #4b724f; /* Define a cor do texto */
+    margin-bottom: 20px; /* Adiciona um espaçamento abaixo do título*/
 }
 
 form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%; /* Define a largura da imagem*/
+    display: flex; /* Define um layout flexível*/
+    flex-direction: column; /* Alinha os itens verticalmente*/
+    align-items: center; /* Centraliza os itens horizontalmente*/
 }
 
 input[type="email"],
 input[type="password"] {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #4b724f;
-    border-radius: 5px;
-    align-items: center;
+    width: 80%; /* Define a largura do contêiner pai*/
+    padding: 10px; /* Adiciona espaçamento interno*/
+    margin: 10px 0; /* Adiciona margem acima e abaixo*/
+    border: 2px solid #4b724f; /* Adiciona espaçamento interno*/
+    border-radius: 5px; /* Arredonda os cantos*/
+    align-items: center; /* Centraliza os itens horizontalmente*/
 }
 
 button {
-    width: 80%;
-    padding: 10px;
-    background-color: #4b724f;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 10px 0;
+    width: 80%; /* Define a largura do contêiner pai*/
+    padding: 10px; /* Adiciona espaçamento interno*/
+    background-color: #4b724f; /* Define a cor do fundo*/
+    color: white; /* Define a cor do texto como branco*/
+    border: none; /* Remove as bordas do botão*/
+    border-radius: 5px; /* Arredonda os cantos do botão*/
+    font-weight: bold; /* Define o texto como negrito.*/
+    cursor: pointer; /* Define o texto como negrito*/
+    margin: 10px 0; /* Adiciona margem acima e abaixo*/
 }
 
 
+button a {
+    color: white; /* Define a cor do texto como branco*/
+    text-decoration: none; /* Remove o sublinhado do texto */
+}
+
+button:hover {
+    background-color: #6f9e6f; /* Altera a cor de fundo ao passar o mouse */
+}
+
 .esqueceu-senha {
-    color: #4b724f;
-    font-size: 14px;
-    text-decoration: none;
-    margin-top: 10px;
+    color: #4b724f; /* Define a cor do texto como verde escuro*/
+    font-size: 14px; /*Define o tamanho da fonte*/
+    text-decoration: none; /* Remove sublinhado do link*/
+    margin-top: 10px; /* Adiciona um espaçamento superior*/
 }
 
 .login-icones {
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    text-align: center; /* Centraliza o conteúdo*/
+    margin-top: 20px; /* Adiciona um espaçamento superior*/
+    display: flex; /* Define um layout flexível*/
+    justify-content: center; /* Centraliza os ícones horizontalmente*/
+    gap: 15px; /*Define um espaçamento de 15px entre os ícones*/
 }
 
 .login-icones span {
-    display: block;
-    margin: 10px 0;
-    font-weight: bold;
-    color: #4b724f;
+    display: block; /* Faz o texto ocupar toda a largura disponível*/
+    margin: 10px 0; /* Adiciona margens superior e inferior*/
+    font-weight: bold; /* Define o texto como negrito.*/
+    color: #4b724f; /* Define a cor do texto como verde escuro*/
 }
 
 
 .login-icones img {
-    width: 30px;
-    cursor: pointer;
+    width: 30px; /* Define a largura das imagens*/
+    cursor: pointer; /* Exibe o ponteiro de mão ao passar o mouse*/
 }
 
 main{
@@ -173,16 +182,16 @@ main{
 }
 
 footer {
-    background-color: #6b8e4e;
-    padding: 10px 20px;
-    text-align: left; 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #6b8e4e; /* Define a cor do fundo*/
+    padding: 10px 20px; /* Adiciona espaçamento interno*/
+    text-align: left; /* Alinha o texto à esquerda*/
+    position: fixed; /* Fixa o rodapé na parte inferior da tela*/
+    bottom: 0; /* Define a posição inferior*/
+    width: 100%; /* Define a largura como 100% da tela*/
 }
 
 footer p {
-    margin: 0; 
-    font-size: 1rem;
-    color: white; 
+    margin: 0; /* Remove qualquer margem ao redor do parágrafo*/
+    font-size: 1rem; /* Define o tamanho da fonte*/
+    color: white; /* Define a cor do texto como branco*/
 }

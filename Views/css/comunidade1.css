@@ -1,213 +1,225 @@
-
 .actor-regular {
-    font-family: "Actor", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Actor", sans-serif;  /* Define a fonte "Actor" , tamanho e estilo */
+    font-weight: 400;  
+    font-style: normal;  
 }
-  
+
+/* Estilo da logo */
 .logo {
-    display: flex;
+    display: flex;  /* Usa o modelo de layout Flexbox para alinhar os itens */
     justify-content: flex-start;  /* Alinha a logo à esquerda */
-    align-items: center;
+    align-items: center;  /* Alinha a logo verticalmente no centro */
 }
 
 .logo img {
-    width: 50px;  
-    height: auto;  
+    width: 50px;  /* Define a largura da imagem da logo */
+    height: auto;  /* Ajusta a altura para manter a proporção da imagem */
 }
 
-
+/* Estilo do cabeçalho (header) */
 header {
-    background-color: #7B9E44;  
-    height: 70px;  
-    padding: 0 30px;
-    box-sizing: border-box;
-    display: flex; 
-    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
-    align-items: center;
+    background-color: #6b8e4e;  
+    height: 70px; 
+    padding: 0 30px;  
+    box-sizing: border-box;  
+    display: flex;  /* Usa o modelo de layout Flexbox para organizar os itens do cabeçalho */
+    justify-content: space-between;  /* Cria espaçamento entre logo, menu e usuário */
+    align-items: center;  /* Alinha os itens do cabeçalho verticalmente no centro */
 }
 
+/* Estilo do menu (menu e suas imagens) */
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex;  /* Usa o modelo de layout Flexbox */
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    justify-content: space-between;  /* Espaço igual entre os itens do menu */
+    background: #6b8e4e;  
+    padding: 1rem;  /* Adiciona 1rem de espaçamento interno */
 }
 
-
-.menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
+.menu-texto h1 {
+    display: flex;  /* Usa Flexbox para alinhar os itens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre os itens */
+    font-size: 1em; 
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none;  /* Remove os marcadores da lista */
+    display: flex;  /* Usa Flexbox para alinhar os itens horizontalmente */
+    gap: 1rem;  /* Espaço de 1rem entre os itens do menu */
+    flex-grow: 1;  /* Faz com que o menu ocupe o máximo de espaço disponível */
+    margin: 0 1rem;  /* Define margens de 1rem à esquerda e à direita */
+    position: relative;  /* Posiciona o menu de forma relativa */
+    left: 300px;  /* Move o menu 300px para a direita */
 }
 
 .menu li a {
-    text-decoration: none;
+    text-decoration: none;  /* Remove o sublinhado dos links */
     color: white;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
-
+    font-weight: normal;  /* Define o peso da fonte como normal */
+    transition: color 0.3s;  /* Adiciona uma transição suave para a mudança de cor */
+    padding: 0.5rem 0.8rem;  /* Adiciona espaçamento interno aos links */
+    font-size: 1.0em;  /* Define o tamanho da fonte dos links */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color: #C7E0A9;  /* Muda a cor do link quando passar o mouse por cima */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex;  /* Flexbox para alinhar as imagens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre as imagens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px;
+    width: 50px;  
+    height: auto;  
+    border-radius: 5px;  /* Arredonda os cantos das imagens */
 }
 
+/* Estilo do corpo da página (body) */
 body {
-    background-color: #F1F1E7;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-h1{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    color: #3A6E29;
-    grid-row: 1;
-}
-
-.bloco {
-    display: grid; 
+    font-family: Arial, Helvetica, sans-serif;  /* Define a fonte padrão do corpo (afetará o cabeçalho) */
     background-color: #F1F1E7; 
-    border: 5px solid #1F611D;
-    height: auto;
-    padding: 10px; 
-    margin-left: 100px;
-    margin-right: 100px; 
-    margin-bottom: 70px;
-    grid-template-rows: 90px 100px 260px 50px; 
-    row-gap: 1px; 
-    grid-template-columns: 50px 400px 200px;
-    column-gap: 80px;
-    align-items: stretch; 
-    position: relative;
+    margin: 0;  
+    padding: 0;  
+    overflow-x: hidden;  /* Impede o scroll horizontal */
 }
 
+/* Estilo do título principal (h1) */
+h1 {
+    text-align: center;  
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px; 
+    color: #3A6E29; 
+    grid-row: 1; 
+}
+
+/* Estilo do bloco de postagens */
+.bloco {
+    display: grid;  /* Usa Grid Layout para organizar os itens dentro do bloco */
+    background-color: #F1F1E7;  
+    border: 5px solid #1F611D; 
+    height: auto;  /* A altura é ajustada automaticamente */
+    padding: 10px;  /* Adiciona espaçamento interno de 10px */
+    margin-left: 100px;  
+    margin-right: 100px;  
+    margin-bottom: 70px;  
+    grid-template-rows: 90px 100px 260px 50px;  /* Define as alturas das linhas na grid */
+    row-gap: 1px;  /* Adiciona um espaçamento de 1px entre as linhas */
+    grid-template-columns: 50px 400px 200px;  /* Define a largura das colunas */
+    column-gap: 80px;  /* Adiciona um espaçamento de 80px entre as colunas */
+    align-items: stretch;  /* Faz os itens se esticarem para preencher as células da grid */
+    position: relative;  /* Define o posicionamento relativo para o bloco */
+}
+
+/* Estilo do título dentro do bloco */
 .titulo {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: bold;
-    color: #000000;
-    grid-column: 1 / -2;
-    grid-row: 1;
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;  
+    font-style: bold;  
+    color: #000000; 
+    grid-column: 1 / -2;  
+    grid-row: 1; 
     left: 55px;
 }
 
+/* Estilo da imagem de perfil */
 .perfil_img {
-    height: 100px;
-    width: auto;
-    float: left;
-    left: 20px;
-    grid-column: 1;
+    height: 100px; 
+    width: auto;  
+    float: left; 
+    left: 20px;  
+    grid-column: 1; 
+    grid-row: 2;  
+}
+
+/* Estilo dos dados de usuário */
+.dados {
+    font-family: "Actor", sans-serif; 
+    font-weight: 20px; 
+    color: #000000;  
+    left: 100px;  /* Move os dados 100px para a direita */
     grid-row: 2;
-  }
+    grid-column: 2; 
+}
 
-.dados{
-        font-family: "Actor", sans-serif;
-        font-weight: 20px;
-        color: #000000;
-        left: 100px;
-        grid-row: 2;
-        grid-column: 2;
-      }
-
+/* Estilo do texto da postagem */
 .texto {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
     grid-column: 1/-2; 
-    grid-row: 3;
-    text-align: justify;
+    grid-row: 3; 
+    text-align: justify;  
 }
 
+/* Estilo da imagem compartilhada */
 .imagem {
-    width: 300px;  
-    height: auto;
+    width: 300px; 
+    height: auto;  
     grid-column: 3;  
-    grid-row: 2/-1;
+    grid-row: 2/-1;  
 }
 
+/* Estilo do ícone de curtida */
 .icone_coracao {
-    width: 30px;
-    height: auto;
-    grid-column: 1;
-    grid-row: 4;
+    width: 30px;  
+    height: auto; 
+    grid-column: 1; 
+    grid-row: 4;  
 }
 
+/* Estilo do botão de postagem */
 .botao_postagem {
     background-color: #941616; 
-    height: 50px;
-    width: 250px;
-    cursor: pointer;
-    grid-column: 3;
-    grid-row: 4;
+    height: 50px;  
+    width: 250px; 
+    cursor: pointer;  /* Muda o cursor para indicar que é clicável */
+    grid-column: 3;  
+    grid-row: 4;  
 }
 
 .botao_postagem p {
-    color: white;
-    text-align: center;
-    font-size: 17px;
-    transform: translateY(-20%);
+    color: white; 
+    text-align: center;  /* Centraliza o texto dentro do botão */
+    font-size: 17px;  
+    transform: translateY(-20%);  /* Move o texto para cima */
 }
 
 .botao_postagem:hover {
-    background-color: #b52d2d;
+    background-color: #b52d2d;  /* Muda a cor do botão quando passar o mouse por cima */
 }
 
+/* Estilo do botão de seta */
 .seta {
-    position: absolute;
-    width: auto;
-    height: 50px;
-    background-color: transparent;
-    border: none;
-    top: 50%; 
-    right: -80px;
-    transform: translateY(-50%); 
-    cursor: pointer;
+    position: absolute;  /* Define o posicionamento absoluto */
+    width: auto;  
+    height: 50px;  
+    background-color: transparent;  
+    border: none;  
+    top: 50%;  /* Posiciona o botão no meio vertical da tela */
+    right: -80px;  /* Posiciona o botão 80px à direita */
+    transform: translateY(-50%);  /* Alinha o botão verticalmente no centro */
+    cursor: pointer;  /* Muda o cursor para indicar que é clicável */
 }
 
 .seta img {
-    width: auto;
-    height: 100%; 
-    object-fit: contain;
+    width: auto; 
+    height: 100%;  
+    object-fit: contain;  /* Ajusta a imagem para que se ajuste corretamente dentro do botão */
 }
 
+/* Estilo do rodapé (footer) */
 footer {
-    background-color: #7B9E44;
-    padding: 10px;
-    left: 0; 
-    bottom: 0;
-    width: 100%; 
-    height: 15px;
-    border: none;
-    margin: 0;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: #ffffff;
+    background-color: #6b8e4e;  
+    padding: 10px 20px;  
+    text-align: left; 
+    position: fixed;  /* Torna o rodapé fixo na parte inferior da tela */
+    bottom: 0;  /* Posiciona o rodapé na parte inferior */
+    width: 100%;  /* Faz o rodapé ocupar toda a largura da tela */
+}
+
+footer p {
+    margin: 0;  /* Remove a margem ao redor do texto */
+    font-size: 1rem; 
+    color: white; 
 }

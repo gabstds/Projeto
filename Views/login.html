@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
-    <div class="sistema-grid">
+
+    <div class="sistema-grid"> <!-- Container principal da página com grid layout -->
+
         <!-- Cabeçalho -->
-        <header>
-            <div class="menu-container">
+        <header> <!-- Cria o cabeçalho da página-->
+            <div class="menu-container"> <!-- Agrupa os elementos do Menu-->
                 <div class="menu-texto">
-                <h1>LOGIN</h1>
+                <h1>LOGIN</h1> <!-- Título principal do cabeçalho -->
                 </div>
-                <nav>
-                    <ul class="menu">
+                <nav> <!-- Navegação-->
+                    <ul class="menu"> <!-- Botões do cabeçalho com vínculo em outras páginas-->
                         <li><a href="HOMEPAGE.html">HOMEPAGE</a></li>
-                        <li><a href="#">AGENDAMENTOS</a></li>
+                        <li><a href="agendamentos.html">AGENDAMENTOS</a></li>
                         <li><a href="comunidade1.html">COMUNIDADE</a></li>
                         <li><a href="IMPORTANCIA.html">IMPORTÂNCIA</a></li>
                     </ul>
                 </nav>
-                <div class="menu-imagens-direita">
+                <div class="menu-imagens-direita"> <!-- Imagem do user-->
                     <img src="media/user.png" alt="Símbolo user">
                 </div>              
             </div>
@@ -30,30 +32,31 @@
     
 
         <!-- Corpo -->
-        <main>
-            <div class="container">
-
-                <div class="coluna-esquerda">
-                    <img src="media/logo.png" alt="Logo Code Crafters" class="logo">
+        <main> <!-- Parte central da página com divisão de duas colunas-->
+            <div class="container"> <!-- Conteúdo-->
+                <div class="coluna-esquerda"> <!-- Coluna do lado esquerdo-->
+                    <img src="media/logo.png" alt="Logo Code Crafters" class="logo"> <!-- Logo da empresa-->
 
                     <br>
                  
-                    <h2>Que bom que você voltou!</h2>
+                    <h2>Que bom que você voltou!</h2> <!-- Mensagem acolhedora-->
 
                     <form method="post">
-                        <input type="email" placeholder="Endereço de E-mail" required>
-                        <input type="password" placeholder="Senha" required>
-                        <a href="recsenha.html" class="esqueceu-senha">Esqueceu sua senha?</a>
+                        <input type="email" placeholder="Endereço de E-mail" required> <!-- Campo de e-mail-->
+                        <input type="password" placeholder="Senha" required> <!-- Campo de senha-->
+                        <a href="recsenha.html" class="esqueceu-senha">Esqueceu sua senha?</a> <!-- Link direcionado a outra página para a recuperação de senha-->
 
                         <br>
-                        <button type="submit">ENTRAR</button>
+                        <button type="submit" >
+                            <a href="HOMEPAGE.html">ENTRAR</a>
+                        </button> <!-- Botão para fazer seu login-->
                         <br>
 
                         <br>
                         <span>ou</span>
                         <br>
 
-                        <div class="login-icones">
+                        <div class="login-icones"> <!-- Links com direcionamento a páginas externas como opção de login -->
                             <a href="https://www.facebook.com/" target="_blank"><img src="media/logoface.png" alt="Facebook"></a>
                             <a href="https://accounts.google.com/" target="_blank"><img src="media/logogoogle.png" alt="Google"></a>
                             <a href="https://account.apple.com/sign-in" target="_blank"><img src="media/logoapple.png" alt="Apple"></a>
@@ -61,16 +64,15 @@
                     </form>
                 </div>
 
-                <div class="coluna-direita">
-                    <img src="media/voluntarios.png" alt="voluntarios" class="Voluntários recolhendo resíduos">
+                <div class="coluna-direita"> <!-- Coluna do lado direito-->
+                    <img src="media/voluntarios.png" alt="voluntarios" class="Voluntários recolhendo resíduos"> <!-- Imagem ilustrativa-->
                     </div>
-                </div>                                                               
-           
+                </div>                                                                          
         </main>
 
          <!-- Rodapé -->
-        <footer>
-            <p>CODE CRAFTERS ©</p>
+        <footer> <!-- Área inferior da página-->
+            <p>CODE CRAFTERS ©</p> <!-- Texto do rodapé -->
         </footer>
     </div>
 </body>
