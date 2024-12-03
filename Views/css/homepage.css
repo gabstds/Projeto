@@ -7,33 +7,15 @@
 body {
     font-family: Arial, sans-serif; 
     line-height: 1.7; 
-    color:#6b8e4e; 
+    color:#000000; 
     background-color: #ffffff; 
-    
 }
-    
 
 /* Cabeçalho */
-.logo {
-    display: flex;
-    justify-content: flex-start;  /* Alinha a logo à esquerda */
-    align-items: center;
-}
-
-.logo img {
-    width: 50px;  
-    height: auto;  
-}
-
-
 header {
-    background-color: #7B9E44;  
-    height: 70px;  
-    padding: 0 30px;
-    box-sizing: border-box;
-    display: flex; 
-    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
-    align-items: center;
+    background: #6b8e4e;
+    color:#ffffff;
+    padding: 0rem;
 }
 
 .menu-container {
@@ -44,30 +26,16 @@ header {
     padding: 1rem;
 }
 
-
-.menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
-}
-
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
     transition: color 0.3s;
     padding: 0.5rem 0.8rem;
-    font-size: 1.0em
+    font-size: 1.0em;
+    margin-right: 20px; 
+    color: white; 
+    font-size: 16px;
 
 }
 
@@ -75,12 +43,12 @@ header {
     color:#C7E0A9;
 }
 
-.botao-user {
+.menu-imagens-direita {
     display: flex;
     gap: 0.5rem;
 }
 
-.botao-user img {
+.menu-imagens-direita img {
     width: 50px; 
     height: auto;
     border-radius: 5px;
@@ -95,16 +63,19 @@ header {
     position: relative;
     left: 300px;
 }
-
 .button_cadastro {
     background-color: #A8C095;
     color: #6b8e23;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+    
 }
+
 
 /*Corpo do site */
 
@@ -132,8 +103,8 @@ header {
 .text p {
     font-family:Arial, sans-serif; 
     font-size: 20px;
-    color:#6b8e4e;
-    justify-content:center;   
+    color:#6b8e4e; 
+    text-align: left;
 }
 
 .img {
