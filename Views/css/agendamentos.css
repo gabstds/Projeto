@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo corpo da página */
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.7; 
+    color:#000000; 
+    background-color: #ffffff; 
+}
+
+/* Cabeçalho */
+header {
+    background: #6b8e4e;
+    color:#ffffff;
+    padding: 0rem;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #6b8e4e;
+    padding: 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    transition: color 0.3s;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.0em
+
+}
+
+.menu li a:hover {
+    color:#C7E0A9;
+}
+
+.menu-imagens-direita {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-imagens-direita img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    column-gap: 40px;
+}
+
+.text-agendamentos h1 {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 100px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.text-agendamentos p {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 100px;
+    justify-content:right;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.button_premiacao {
+    background-color: #A8C095;
+    color: #6b8e23;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 75px;
+    text-align: center;
+    cursor:pointer;
+    position: absolute;
+    right: 0;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* rodapé */
+footer {
+    background-color: #6b8e4e;
+    color:#ffffff;
+    padding: 10px; 
+    text-align: left;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    border: none;
+    margin: 0;
+}
