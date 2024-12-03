@@ -62,6 +62,41 @@ header {
 }
 
 
+/*Corpo do Site*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: left;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.borda-vermelha {
+        border-top: 30px solid #800707; 
+        margin-top: 15px; 
+        border-bottom: 30px solid #800707; 
+        margin-bottom: 15px;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        background-color: white;
+    }
+
+.text-importancia p {
+    text-align: left;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.text-importancia li {
+    text-align: left;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
 /* rodapé */
 footer {
     background-color: #6b8e4e;

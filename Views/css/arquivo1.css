@@ -14,10 +14,26 @@ body {
     
 
 /* Cabeçalho */
+.logo {
+    display: flex;
+    justify-content: flex-start;  /* Alinha a logo à esquerda */
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;  
+    height: auto;  
+}
+
+
 header {
-    background: #6b8e4e;
-    color: white;
-    padding: 0rem;
+    background-color: #7B9E44;  
+    height: 70px;  
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
+    align-items: center;
 }
 
 .menu-container {
@@ -26,14 +42,23 @@ header {
     justify-content: space-between; 
     background: #6b8e4e;
     padding: 1rem;
-    margin-right: 100px;
 }
 
-.menutext h1{
+
+.menu-texto h1{
     display: flex;
     gap: 0.5rem;
     font-size: 1em;
+}
 
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1; 
+    margin: 0 1rem;
+    position: relative;
+    left: 300px;
 }
 
 .menu li a {
@@ -42,7 +67,7 @@ header {
     font-weight: normal;
     transition: color 0.3s;
     padding: 0.5rem 0.8rem;
-    font-size: 1.0em;
+    font-size: 1.0em
 
 }
 
@@ -58,9 +83,7 @@ header {
 .botao-user img {
     width: 50px; 
     height: auto;
-    border-radius: 3px;
-    margin-left: 50px;
-    
+    border-radius: 5px;
 }
 
 .menu {
@@ -109,8 +132,8 @@ header {
 .text p {
     font-family:Arial, sans-serif; 
     font-size: 20px;
-    color:#6b8e4e; 
-    
+    color:#6b8e4e;
+    justify-content:center;   
 }
 
 .img {
@@ -129,6 +152,7 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
+    width: 35px;
     cursor:pointer;
     grid-column: 2;
     grid-row: 2;
