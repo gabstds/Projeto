@@ -139,6 +139,15 @@ button {
 }
 
 
+button a {
+    color: white; /* Define a cor do texto como branco*/
+    text-decoration: none; /* Remove o sublinhado do texto */
+}
+
+button:hover {
+    background-color: #6f9e6f; /* Altera a cor de fundo ao passar o mouse */
+}
+
 .esqueceu-senha {
     color: #4b724f; /* Define a cor do texto como verde escuro*/
     font-size: 14px; /*Define o tamanho da fonte*/
