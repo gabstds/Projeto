@@ -1,121 +1,120 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0e5;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial ou sans-serif */
+    background-color: #f0f0e5; /* Define a cor de fundo da página */
+    color: #ffffff; /* Define a cor do texto padrão */
+    margin: 0; /* Remove a margem padrão do corpo da página */
+    padding: 0; /* Remove o preenchimento padrão do corpo da página */
 }
 
 header {
-    background: #6b8e4e;
-    color: white;
-    padding: 0rem;
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 0rem; /* Define o espaçamento interno do cabeçalho como zero */
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex; /* Utiliza flexbox para organizar os itens no menu */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens igualmente entre as bordas */
+    background: #6b8e4e; /* Define a cor de fundo do menu */
+    padding: 1rem; /* Adiciona um espaçamento interno ao menu */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex; /* Define um layout flexível para organizar imagens */
+    gap: 0.5rem; /* Define o espaçamento entre os itens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px; 
+    width: 50px; /* Define a largura das imagens */
+    height: auto; /* Ajusta a altura proporcional à largura */
+    border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
 }
 
-.menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
+.menu-texto h1 {
+    display: flex; /* Define um layout flexível para o título */
+    gap: 0.5rem; /* Define o espaçamento entre elementos filhos */
+    font-size: 1em; /* Define o tamanho da fonte do título */
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none; /* Remove a formatação de lista padrão (como marcadores) */
+    display: flex; /* Define os itens do menu como flexíveis */
+    gap: 1rem; /* Define o espaçamento entre os itens do menu */
+    flex-grow: 1; /* Faz com que o menu cresça para ocupar o espaço disponível */
+    margin: 0 1rem; /* Define margens laterais */
+    position: relative; /* Define a posição como relativa para posicionamento adicional */
+    left: 300px; /* Move o menu para a direita */
 }
 
 .menu li a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
-
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor dos links como branca */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    transition: color 0.3s; /* Adiciona uma transição suave ao mudar a cor */
+    padding: 0.5rem 0.8rem; /* Adiciona preenchimento interno aos links */
+    font-size: 1.0em; /* Define o tamanho da fonte */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color: #C7E0A9; /* Muda a cor do link ao passar o mouse */
 }
 
 .container {
-    max-width: 600px;
-    margin: 30px auto;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: white;
+    max-width: 600px; /* Define a largura máxima do contêiner */
+    margin: 30px auto; /* Centraliza o contêiner horizontalmente e define margens verticais */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza ao contêiner */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    background-color: white; /* Define a cor de fundo como branca */
 }
 
 .container img {
-    width: 250px;
+    width: 250px; /* Define a largura da imagem no contêiner */
 }
 
 .container h1 {
-    color: #000000;
+    color: #000000; /* Define a cor do texto principal como preto */
 }
 
 form {
-    display: grid;
-    gap: 15px;
+    display: grid; /* Utiliza o layout grid para organizar os elementos do formulário */
+    gap: 15px; /* Define o espaçamento entre os campos do formulário */
 }
 
 input {
-    padding: 10px;
-    border: 1px solid #6f9e6f;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 10px; /* Adiciona preenchimento interno aos campos de entrada */
+    border: 1px solid #6f9e6f; /* Define uma borda verde nos campos */
+    border-radius: 5px; /* Arredonda as bordas dos campos */
+    font-size: 16px; /* Define o tamanho da fonte dos campos */
 }
 
 button {
-    background-color: #6b8e4e;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #6b8e4e; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Adiciona o cursor de "mãozinha" ao passar sobre o botão */
 }
 
 button:hover {
-    background-color: #6f9e6f;
+    background-color: #6f9e6f; /* Muda a cor de fundo do botão ao passar o mouse */
 }
 
 footer {
-    background-color: #6b8e4e;
-    padding: 10px 20px;
-    text-align: left; 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #6b8e4e; /* Define a cor de fundo do rodapé */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao rodapé */
+    text-align: left; /* Alinha o texto do rodapé à esquerda */
+    position: fixed; /* Posiciona o rodapé fixo na parte inferior da página */
+    bottom: 0; /* Garante que o rodapé fique na base da página */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
 }
 
 footer p {
-    margin: 0; 
-    font-size: 1rem;
-    color: white; 
+    margin: 0; /* Remove a margem do parágrafo no rodapé */
+    font-size: 1rem; /* Define o tamanho da fonte no rodapé */
+    color: white; /* Define a cor do texto como branca */
 }

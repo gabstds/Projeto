@@ -1,121 +1,120 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0e5;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
+    background-color: #f0f0e5; /* Define a cor de fundo da página */
+    color: #ffffff; /* Define a cor padrão do texto */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
 }
 
 header {
-    background: #6b8e4e;
-    color: white;
-    padding: 0rem;
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 0rem; /* Remove o preenchimento */
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex; /* Usa o layout flexível para alinhar itens */
+    align-items: center; /* Alinha os itens ao centro na vertical */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    background: #6b8e4e; /* Define a cor de fundo */
+    padding: 1rem; /* Define o espaçamento interno do menu */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex; /* Alinha as imagens no layout flexível */
+    gap: 0.5rem; /* Define o espaço entre as imagens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px; 
+    width: 50px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção original da altura */
+    border-radius: 5px; /* Adiciona bordas arredondadas à imagem */
 }
 
-.menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
+.menu-texto h1 {
+    display: flex; /* Usa o layout flexível para o texto */
+    gap: 0.5rem; /* Espaçamento entre os elementos dentro do título */
+    font-size: 1em; /* Define o tamanho da fonte */
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+    gap: 1rem; /* Define o espaço entre os itens */
+    flex-grow: 1; /* Permite que a lista cresça para ocupar espaço */
+    margin: 0 1rem; /* Define a margem lateral */
+    position: relative; /* Define o posicionamento relativo */
+    left: 300px; /* Move o menu 300px para a direita */
 }
 
 .menu li a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
-
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor do texto dos links */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor */
+    padding: 0.5rem 0.8rem; /* Adiciona espaçamento interno aos links */
+    font-size: 1.0em; /* Define o tamanho da fonte */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color: #C7E0A9; /* Muda a cor dos links quando o mouse passa sobre eles */
 }
 
 .container {
-    max-width: 600px;
-    margin: 30px auto;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: white;
+    max-width: 600px; /* Define a largura máxima da caixa */
+    margin: 30px auto; /* Centraliza a caixa horizontalmente e adiciona margem superior */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza clara */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    background-color: white; /* Define a cor de fundo da caixa */
 }
 
 .container img {
-    width: 250px;
+    width: 250px; /* Define a largura da imagem dentro da caixa */
 }
 
 .container h1 {
-    color: #000000;
+    color: #000000; /* Define a cor do texto no título principal */
 }
 
 form {
-    display: grid;
-    gap: 15px;
+    display: grid; /* Usa o layout de grade para o formulário */
+    gap: 15px; /* Define o espaço entre os elementos do formulário */
 }
 
 input {
-    padding: 10px;
-    border: 1px solid #6f9e6f;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 10px; /* Adiciona espaçamento interno ao campo de entrada */
+    border: 1px solid #6f9e6f; /* Define uma borda verde clara */
+    border-radius: 5px; /* Arredonda os cantos do campo */
+    font-size: 16px; /* Define o tamanho da fonte no campo */
 }
 
 button {
-    background-color: #6b8e4e;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #6b8e4e; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    padding: 10px; /* Adiciona espaçamento interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    font-size: 16px; /* Define o tamanho da fonte no botão */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
 }
 
 button:hover {
-    background-color: #6f9e6f;
+    background-color: #6f9e6f; /* Altera a cor de fundo ao passar o mouse sobre o botão */
 }
 
 footer {
-    background-color: #6b8e4e;
-    padding: 10px 20px;
-    text-align: left; 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #6b8e4e; /* Define a cor de fundo do rodapé */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao rodapé */
+    text-align: left; /* Alinha o texto à esquerda */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé no fundo */
+    width: 100%; /* Define que o rodapé ocupe toda a largura da página */
 }
 
 footer p {
-    margin: 0; 
-    font-size: 1rem;
-    color: white; 
+    margin: 0; /* Remove a margem do parágrafo */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    color: white; /* Define a cor do texto no rodapé */
 }
