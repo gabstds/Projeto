@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o tipo do documento como HTML5 e a linguagem como português brasileiro -->
+    <meta charset="UTF-8"> <!-- Define a codificação como UTF-8 para suportar caracteres especiais -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante compatibilidade com versões mais antigas do IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>Cadastro</title> <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="css/usuariomenu.css"> <!-- Importa o arquivo CSS para estilizar a página -->
+</head>
+<body>
+
+<header>
+    <!-- Cabeçalho da página -->
+    <img src="media/_logo_codecrafters_redimensionada.png" alt="Logo Code Crafters"> <!-- Exibe o logotipo -->
+    <div class="menu-container"></div> <!-- Espaço para o menu (atualmente vazio) -->
+    <nav>
+        <!-- Menu de navegação -->
+        <ul class="menu">
+            <li><a href="HOMEPAGE.html">HOMEPAGE</a></li> 
+            <li><a href="agendamentos.html">AGENDAMENTOS</a></li> 
+            <li><a href="comunidade1.html">COMUNIDADE</a></li> 
+            <li><a href="IMPORTANCIA.html">IMPORTÂNCIA</a></li> 
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Conteúdo principal da página -->
+    <div class="form-container">
+        <h2>Seja bem-vindo!</h2> <!-- Título do formulário -->
+        <form action="#"> <!-- Formulário de cadastro -->
+            <div class="form-group">
+                <!-- Campo para nome completo -->
+                <input type="text" placeholder="Nome completo" required> 
+                <!-- Campo para endereço de e-mail -->
+                <input type="email" placeholder="Endereço de e-mail" required> 
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="CPF" required> <!-- Campo para CPF -->
+                <input type="password" placeholder="Crie sua senha" required> <!-- Campo para senha -->
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="CEP" required> <!-- Campo para CEP -->
+                <input type="password" placeholder="Confirme sua senha" required> <!-- Confirmação da senha -->
+            </div>
+            
+            <button type="submit">Concluir</button> <!-- Botão para enviar o formulário -->
+            <p>Já é cadastrado? <a href="#">Clique aqui</a></p> <!-- Link para login ou outro formulário -->
+        </form>
+    </div>
+</main>
+        
+<footer>
+    <!-- Rodapé da página -->
+    <p>CODE CRAFTERS ©</p>
+</footer>
+
+</body>
+</html>

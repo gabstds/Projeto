@@ -1,0 +1,124 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal da página */
+    background-color: #F1F1E7; /* Define a cor de fundo do corpo */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o espaçamento interno padrão */
+}
+
+/* Container principal */
+.container {
+    max-width: 900px; /* Define a largura máxima do container */
+    margin: auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #F1F1E7; /* Define a cor de fundo do container */
+    border-radius: 8px; /* Arredonda os cantos do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor */
+}
+
+/* Cabeçalho */
+header {
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 0rem; /* Remove espaçamento interno no cabeçalho */
+}
+
+.menu-container {
+    display: flex; /* Define um layout flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens para as extremidades */
+    background: #6b8e4e; /* Define a cor de fundo do container do menu */
+    padding: 1rem; /* Adiciona espaçamento interno ao container */
+}
+
+.menu-imagens-direita {
+    display: flex; /* Define um layout flexível para as imagens */
+    gap: 0.5rem; /* Adiciona espaço entre as imagens */
+}
+
+.menu-imagens-direita img {
+    width: 50px; /* Define a largura fixa para as imagens */
+    height: auto; /* Ajusta a altura proporcionalmente à largura */
+    border-radius: 5px; /* Arredonda os cantos das imagens */
+}
+
+.menu-texto h1 {
+    display: flex; /* Define um layout flexível */
+    gap: 0.5rem; /* Adiciona espaço entre os elementos do texto */
+    font-size: 1em; /* Define o tamanho da fonte */
+}
+
+.menu {
+    list-style: none; /* Remove os marcadores padrão das listas */
+    display: flex; /* Organiza os itens horizontalmente */
+    gap: 1rem; /* Adiciona espaço entre os itens do menu */
+    flex-grow: 1; /* Faz o menu ocupar o espaço disponível */
+    margin: 0 1rem; /* Adiciona margens laterais */
+    position: relative; /* Permite ajustar a posição relativa ao container */
+    left: 300px; /* Move o menu para a direita */
+}
+
+.menu li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor do texto dos links */
+    font-weight: normal; /* Define o peso normal da fonte */
+    transition: color 0.3s; /* Adiciona uma transição suave ao mudar de cor */
+    padding: 0.5rem 0.8rem; /* Adiciona espaçamento interno ao link */
+    font-size: 1.0em; /* Define o tamanho do texto */
+}
+
+.menu li a:hover {
+    color: #C7E0A9; /* Altera a cor do link ao passar o mouse */
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px; /* Adiciona espaçamento interno ao conteúdo principal */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Formulário */
+.form-container {
+    background-color: #F1F1E7; /* Define a cor de fundo do formulário */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #6b8e4e; /* Adiciona uma borda ao redor */
+    border-radius: 8px; /* Arredonda os cantos do formulário */
+}
+
+.form-group {
+    display: flex; /* Organiza os campos lado a lado */
+    justify-content: space-between; /* Espaça os campos igualmente */
+    margin-bottom: 15px; /* Adiciona espaço abaixo do grupo de campos */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 48%; /* Define a largura dos campos como metade do grupo */
+    padding: 10px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #6b8e4e; /* Adiciona uma borda ao campo */
+    border-radius: 4px; /* Arredonda os cantos dos campos */
+}
+
+button {
+    background-color: #6b8e4e; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto no botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    cursor: pointer; /* Define o cursor como uma mão ao passar sobre o botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+}
+
+button:hover {
+    background-color: #567a3d; /* Altera a cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Adiciona espaçamento interno */
+    background-color: #6b8e4e; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    border-radius: 0 0 8px 8px; /* Arredonda os cantos inferiores do rodapé */
+}
