@@ -27,6 +27,7 @@ header {
 }
 
 .menu li a {
+    display: flex;
     text-decoration: none;
     color: #ffffff;
     font-weight: normal;
@@ -36,7 +37,7 @@ header {
     margin-right: 20px; 
     color: white; 
     font-size: 16px;
-
+    align-items: center;
 }
 
 .menu li a:hover {
@@ -45,6 +46,7 @@ header {
 
 .menu-imagens-direita {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -52,11 +54,13 @@ header {
     width: 50px; 
     height: auto;
     border-radius: 5px;
+
 }
 
 .menu {
+    display:flex;
+    align-items: center;
     list-style: none;
-    display: flex;
     gap: 1rem;
     flex-grow: 1; 
     margin: 0 1rem;
@@ -67,13 +71,11 @@ header {
     background-color: #A8C095;
     color: #6b8e23;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
-    align-items: center;
-    margin-bottom: 10px;
-    
+    margin: 0; /* Remove margin que desalinha */
 }
 
 
