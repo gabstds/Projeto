@@ -6,7 +6,7 @@
 /* Estilo corpo da página */
 body {
     font-family: Arial, sans-serif; 
-    line-height: 1.7; 
+    line-height: 1.7;  
     color:#000000; 
     background-color: #000000; 
 }
@@ -63,13 +63,13 @@ header {
 
 /* Corpo do site */
 
+
 .container{
     border-top: 30px solid #ffffff;
-    margin-top: 30px; 
-    border-bottom: 30px solid #ffffff; 
-    margin-bottom: 30px; 
+    border-bottom: 30px solid #ffffff;
     padding: 20px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .text-agendamentos h1 {

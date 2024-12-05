@@ -1,3 +1,4 @@
+/* Reseta as margens e os paddings de todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -5,140 +6,142 @@
 
 /* Estilo corpo da página */
 body {
-    font-family: Arial, sans-serif; 
-    line-height: 1.7; 
-    color:#000000; 
-    background-color: #ffffff; 
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.7; /* Espaçamento entre linhas */
+    color: #000000; /* Cor do texto em preto */
+    background-color: #ffffff; /* Fundo branco */ 
 }
 
 /* Cabeçalho */
 header {
-    background: #6b8e4e;
-    color:#ffffff;
-    padding: 0rem;
+    background: #6b8e4e;/* Cor de fundo verde */
+    color: #ffffff; /* Texto branco */
+    padding: 0rem; /* Sem espaçamento interno */
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex;/* Usa flexbox para organizar os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    background: #6b8e4e; /* Fundo verde */
+    padding: 1rem; /* Espaçamento interno */
 }
 
 .menu li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em;
-    margin-right: 20px; 
-    color: white; 
-    font-size: 16px;
-
+    display: flex; /* Organiza os elementos dentro do link como flexbox */
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #ffffff; /* Cor branca para o texto */
+    font-weight: normal; /* Peso normal da fonte */
+    transition: color 0.3s; /* Efeito de transição para mudança de cor */
+    padding: 0.5rem 0.8rem; /* Espaçamento interno */
+    font-size: 1.0em; /* Tamanho da fonte */
+    margin-right: 20px; /* Espaçamento à direita */
+    align-items: center; /* Alinha o conteúdo interno ao centro */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color:#C7E0A9; /* Muda a cor do link ao passar o mouse */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex;/* Usa flexbox */
+    align-items: center; /* Centraliza verticalmente as imagens */
+    gap: 0.5rem; /* Espaçamento entre as imagens */
+
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px;
+    width: 50px; /* Largura fixa */
+    height: auto; /* Altura proporcional */
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    display:flex; /* Usa flexbox */
+    align-items: center; /* Centraliza verticalmente os itens */
+    list-style: none; /* Remove marcadores */
+    gap: 1rem; /* Espaçamento entre os itens */
+    flex-grow: 1; /* Permite que o menu ocupe espaço disponível */
+    margin: 0 1rem; /* Margem horizontal */
+    position: relative; /* Posicionamento relativo */
+    left: 300px; /* Move o menu 300px à direita */
+
 }
 .button_cadastro {
-    background-color: #A8C095;
-    color: #6b8e23;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
-    align-items: center;
-    margin-bottom: 10px;
-    
+    background-color: #A8C095; /* Fundo verde claro */
+    color: #6b8e23; /* Texto verde escuro */
+    border: none; /* Remove borda */
+    padding: 10px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 15px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor em formato de mão */
+    margin: 0; /* Remove margem */
+
 }
 
 
 /*Corpo do site */
 
 .container {
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-    column-gap: 40px;
+    display: grid;/* Define um layout em grade */
+    grid-template-columns: 2; /* Duas colunas */
+    grid-template-rows: 2; /* Duas linhas */
+    column-gap: 40px; /* Espaçamento entre colunas */
 }
 
 .text {
-    margin-top: 100px;
-    grid-column: 2;
-    grid-row: 1;
+    margin-top: 100px;/* Espaço superior. */
+    grid-column: 2; /* Segunda coluna no grid. */
+    grid-row: 1; /* Primeira linha no grid. */
 }
 
 .text h3 {
-    font-family:'Times New Roman', Times, serif; 
-    font-size: 40px;
-    color:#6b8e4e; 
-    margin-left: 300px;
-    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif; /* Fonte serifada. */
+    font-size: 40px; /* Tamanho grande. */
+    color:#6b8e4e; /* Verde. */
+    margin-left: 300px; /* Espaço à esquerda. */
+    margin-top: 20px; /* Espaço superior. */
 }
 
 .text p {
-    font-family:Arial, sans-serif; 
-    font-size: 20px;
-    color:#6b8e4e; 
-    text-align: left;
+    font-family:Arial, sans-serif; /* Fonte sem serifa. */
+    font-size: 20px; /* Tamanho médio. */
+    color:#6b8e4e; /* Verde. */
+    text-align: left; /* Alinhado à esquerda. */
 }
 
 .img {
-    grid-column: 1;
-    margin-top: 50px;
-    margin-left: 30px;
-    grid-row: 1;
-    width: 500px;
+    grid-column: 1;/* Primeira coluna no grid. */
+    margin-top: 50px; /* Espaço superior. */
+    margin-left: 30px; /* Espaço à esquerda. */
+    grid-row: 1; /* Primeira linha no grid. */
+    width: 500px; /* Largura fixa. */
 }
 
 
 .button_leis {
-    background-color: #A8C095;
-    color: #6b8e23;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 35px;
-    cursor:pointer;
-    grid-column: 2;
-    grid-row: 2;
+    background-color: #A8C095;/* Fundo verde claro. */
+    color: #6b8e23; /* Texto verde. */
+    border: none; /* Sem borda. */
+    padding: 10px 20px; /* Espaçamento interno. */
+    border-radius: 5px; /* Bordas arredondadas. */
+    font-size: 16px; /* Texto médio. */
+    width: 35px; /* Largura fixa. */
+    cursor:pointer; /* Cursor clicável. */
+    grid-column: 2; /* Segunda coluna no grid. */
+    grid-row: 2; /* Segunda linha no grid. */
 }
 
 /* rodapé */
 footer {
-    background-color: #7B9E44;
-    color:#ffffff;
-    padding: 10px; 
-    text-align: left;
-    position: fixed; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    border: none;
-    margin: 0;
+    background-color: #7B9E44;/* Fundo verde escuro. */
+    color:#ffffff; /* Texto branco. */
+    padding: 10px; /* Espaçamento interno. */
+    text-align: left; /* Texto à esquerda. */
+    position: fixed; /* Fixo na tela. */
+    bottom: 0; /* Alinhado na parte inferior. */
+    left: 0; /* Alinhado à esquerda. */
+    width: 100%; /* Ocupa a largura total. */
+    border: none; /* Sem borda. */
+    margin: 0; /* Sem margem. */
 }
