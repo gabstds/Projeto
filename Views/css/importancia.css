@@ -13,65 +13,80 @@ body {
 }
 
 /* Cabeçalho */
+.logo {
+    display: flex;  /* Usa o modelo de layout Flexbox para alinhar os itens */
+    justify-content: flex-start;  /* Alinha a logo à esquerda */
+    align-items: center;  /* Alinha a logo verticalmente no centro */
+}
+
+.logo img {
+    width: 50px;  /* Define a largura da imagem da logo */
+    height: auto;  /* Ajusta a altura para manter a proporção da imagem */
+}
+
+/* Estilo do cabeçalho (header) */
 header {
-    background: #6b8e4e; /* Define o fundo como verde. */
-    color: #ffffff; /* Texto branco no cabeçalho. */
-    padding: 0rem; /* Remove o espaçamento interno. */
+    background-color: #6b8e4e;  
+    height: 70px; 
+    padding: 0 30px;  
+    box-sizing: border-box;  
+    display: flex;  /* Usa o modelo de layout Flexbox para organizar os itens do cabeçalho */
+    justify-content: space-between;  /* Cria espaçamento entre logo, menu e usuário */
+    align-items: center;  /* Alinha os itens do cabeçalho verticalmente no centro */
 }
 
+/* Estilo do menu (menu e suas imagens) */
 .menu-container {
-    display: flex;/* Alinha itens do menu horizontalmente. */
-    align-items: center; /* Alinha verticalmente os itens. */
-    justify-content: space-between; /* Espaçamento igual entre os itens. */
-    background: #6b8e4e; /* Fundo verde. */
-    padding: 1rem; /* Adiciona espaçamento interno. */
+    display: flex;  /* Usa o modelo de layout Flexbox */
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    justify-content: space-between;  /* Espaço igual entre os itens do menu */
+    background: #6b8e4e;  
+    padding: 1rem;  /* Adiciona 1rem de espaçamento interno */
 }
 
-.menu li a {
-    text-decoration: none; /* Remove o sublinhado dos links. */
-    color: #ffffff; /* Texto branco. */
-    font-weight: normal; /* Define o peso normal da fonte. */
-    transition: color 0.3s; /* Animação de transição de cor ao passar o mouse. */
-    padding: 0.5rem 0.8rem; /* Define o espaçamento interno dos links. */
-    font-size: 1.0em; /* Tamanho padrão do texto. */
-}
-
-.menu li a:hover {
-    color:#C7E0A9;  /* Cor verde-claro ao passar o mouse. */
-}
-
-.menu-imagens-direita {
-    display: flex; /* Alinha as imagens horizontalmente. */
-    gap: 0.5rem; /* Espaçamento entre imagens. */
-}
-
-.menu-imagens-direita img {
-    width: 50px; /* Largura fixa das imagens. */
-    height: auto; /* Altura proporcional. */
-    border-radius: 5px; /* Bordas arredondadas. */
-  
+.menu-texto h1 {
+    display: flex;  /* Usa Flexbox para alinhar os itens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre os itens */
+    font-size: 1em; 
 }
 
 .menu {
-    list-style: none; /* Remove os marcadores de lista. */
-    display: flex; /* Coloca os itens do menu em linha. */
-    gap: 1rem; /* Espaçamento entre os itens. */
-    flex-grow: 1; /* Preenche o espaço restante. */
-    margin: 0 1rem; /* Margem lateral. */
-    position: relative; /* Permite ajustes posicionais relativos. */
-    left: 300px; /* Move o menu para a direita. */
+    list-style: none;  /* Remove os marcadores da lista */
+    display: flex;  /* Usa Flexbox para alinhar os itens horizontalmente */
+    gap: 1rem;  /* Espaço de 1rem entre os itens do menu */
+    flex-grow: 1;  /* Faz com que o menu ocupe o máximo de espaço disponível */
+    margin: 0 1rem;  /* Define margens de 1rem à esquerda e à direita */
+    position: relative;  /* Posiciona o menu de forma relativa */
+    left: 300px;  /* Move o menu 300px para a direita */
+}
+
+.menu li a {
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    color: white;
+    font-weight: normal;  /* Define o peso da fonte como normal */
+    transition: color 0.3s;  /* Adiciona uma transição suave para a mudança de cor */
+    padding: 0.5rem 0.8rem;  /* Adiciona espaçamento interno aos links */
+    font-size: 1.0em;  /* Define o tamanho da fonte dos links */
+}
+
+.menu li a:hover {
+    color: #C7E0A9;  /* Muda a cor do link quando passar o mouse por cima */
+}
+
+.menu-imagens-direita {
+    display: flex;  /* Flexbox para alinhar as imagens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre as imagens */
+}
+
+.menu-imagens-direita img {
+    width: 50px;  
+    height: auto;  
+    border-radius: 5px;  /* Arredonda os cantos das imagens */
 }
 
 
 /*Corpo do Site*/
 
-body {
-    display: flex; display: flex; /* Layout flexível para centralizar itens. */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente. */
-    align-items: center; /* Centraliza o conteúdo verticalmente. */
-    background-color: #f4f4f4; /* Cor de fundo cinza claro. */
-    font-family: Arial, sans-serif; /* Fonte Arial, fallback para sans-serif. */
-}
 
 .borda-vermelha {
         border-top: 50px solid #800707; /* Borda superior vermelha. */
