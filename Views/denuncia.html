@@ -7,55 +7,61 @@
     <link rel="shortcut icon" href="media/logo_codecrafters_colorida.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/postagem_denuncia.css">
 </head>
-
 <body>
-<header>
-    <div class="logo">
-        <img src="media/logo_codecrafters_redimensionada.png" alt="Logo empresa CodeCrafters">
-    </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">HOMEPAGE</a></li>
-                <li><a href="#">AGENDAMENTOS</a></li>
-                <li><a href="#">COMUNIDADE</a></li>
-                <li><a href="#">IMPORTÂNCIA</a></li>
-            </ul>
-        </nav>
-            <div class="menu-imagens-direita">
-                <img src="media/user.png" alt="Símbolo user">
-            </div>
+    <header> <!-- Início do cabeçalho da página -->
+        <div class="logo"> <!-- Container para a logo -->
+            <img src="media/logo_codecrafters_redimensionada.png" alt="Logo empresa CodeCrafters">
         </div>
-    </header>
+        <nav> <!-- Início da navegação principal -->
+            <ul class="menu"> <!-- Lista de navegação -->
+                <li><a href="HOMEPAGE.html">HOMEPAGE</a></li> <!-- Item de menu que leva para a homepage -->
+                <li><a href="agendamentos.html">AGENDAMENTOS</a></li> <!-- Item de menu para agendamentos -->
+                <li><a href="#">COMUNIDADE</a></li> <!-- Item de menu para a seção de comunidade -->
+                <li><a href="IMPORTANCIA.html">IMPORTÂNCIA</a></li> <!-- Item de menu para informações sobre a importância -->
+            </ul>
+        </nav> <!-- Fim da navegação -->
+        <div class="menu-imagens-direita"> <!-- Container para a imagem de login/cadastro-->
+            <a href="editaruser.html">
+            <img src="media/user.png" alt="Símbolo user">
+            </a>
+        </div>
+    </header> 
 <main>
-    <section>
+    <section> <!-- Seção dentro da página -->
         <article>
-            <h1> Denúncia </h1>
+            <h1> Denúncia </h1> <!-- Título indicando que este conteúdo está relacionado a uma denúncia -->
         </article>
-        <article> 
-            <div class="bloco">
-                <input type="text" class="titulo_input" id="titulo" name="titulo" placeholder="Escreva seu título aqui">
-                <input type="text" class="texto_input" id="titulo" name="titulo" placeholder="Escreva sua denúncia aqui">
+        <article>
+            <div class="bloco"> <!-- Contêiner geral para os elementos internos, com a classe "bloco" -->
+                <!-- Campo de input para o título da denúncia -->
+                <input type="text" class="titulo_input" id="titulo" name="titulo" placeholder="Escreva seu título aqui"> 
+                <!-- Campo de input para o texto da denúncia -->
+                <input type="text" class="texto_input" id="titulo" name="titulo" placeholder="Escreva sua denúncia aqui"> 
+                <!-- Exibição da imagem de perfil do usuário -->
                 <div class="perfil_img">
-                    <img src="media/perfilindefinido.png" alt="Imagem de perfil">
+                    <img src="media/perfilindefinido.png" alt="Imagem de perfil"> <!-- Exibe a imagem de perfil do usuário -->
                 </div>
+                <!-- Exibição dos dados do usuário -->
                 <div class="dados">
                     <p>Nome de Usuário: selecionar perfil  Local: cidade-estado
                         Data de Postagem: xx/xx/xxxx</p>
                 </div>
+                <!-- Exibição de uma imagem associada à postagem -->
                 <div class="imagem">
-                    <img src="media/imgpostagem.png" alt="Foto compartilhada pelo usuário">
+                    <img src="media/imgpostagem.png" alt="Foto compartilhada pelo usuário"> <!-- Exibe uma foto compartilhada pelo usuário -->
                 </div>
-                <a href="#" class="botao" style="margin-left: 200px">
-                    <p>Salvar</p>
+                <!-- Botões de ação: Postar e Excluir -->
+                <a href="comunidade1.html" class="botao" style="margin-left: 200px">
+                    <p>Postar</p> <!-- Retorna a página da comunidade -->
                 </a>
-                <a href="#" class="botao" style="margin-left: 370px">
-                    <p>Excluir</p>
+                <a href="comunidade1.html" class="botao" style="margin-left: 370px">
+                    <p>Excluir</p> <!-- Retorna a página da comunidade -->
                 </a>
-               </div>
+            </div>
         </article>
-</main>
+    </section>    
 <footer> 
-    <div class="rodape"> 
+    <div class="rodape"> <!-- Container para o rodapé -->
         <p>CODECRAFTERS©</p>
     </div>
 </footer>

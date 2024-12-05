@@ -1,218 +1,222 @@
-.logo img {
-    width: 50px;  
-    height: auto;  
-}
-
+/* Estilo da logo */
 .logo {
-    display: flex;
+    display: flex;  /* Usa o modelo de layout Flexbox para alinhar os itens */
     justify-content: flex-start;  /* Alinha a logo à esquerda */
-    align-items: center;
+    align-items: center;  /* Alinha a logo verticalmente no centro */
 }
 
+.logo img {
+    width: 50px;  /* Define a largura da imagem da logo */
+    height: auto;  /* Ajusta a altura para manter a proporção da imagem */
+}
+
+/* Estilo do cabeçalho (header) */
 header {
-    background-color: #6b8e4e;;  
-    height: 70px;  
-    padding: 0 30px;
-    box-sizing: border-box;
-    display: flex; 
-    justify-content: space-between;  /* Espaçamento entre logo, botões e usuário */
-    align-items: center;
+    background-color: #6b8e4e;  
+    height: 70px; 
+    padding: 0 30px;  
+    box-sizing: border-box;  
+    display: flex;  /* Usa o modelo de layout Flexbox para organizar os itens do cabeçalho */
+    justify-content: space-between;  /* Cria espaçamento entre logo, menu e usuário */
+    align-items: center;  /* Alinha os itens do cabeçalho verticalmente no centro */
 }
 
-
+/* Estilo do menu (menu e suas imagens) */
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex;  /* Usa o modelo de layout Flexbox */
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    justify-content: space-between;  /* Espaço igual entre os itens do menu */
+    background: #6b8e4e;  
+    padding: 1rem;  /* Adiciona 1rem de espaçamento interno */
 }
 
-
-.menu-texto h1{
-    display: flex;
-    gap: 0.5rem;
-    font-size: 1em;
+.menu-texto h1 {
+    display: flex;  /* Usa Flexbox para alinhar os itens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre os itens */
+    font-size: 1em; 
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none;  /* Remove os marcadores da lista */
+    display: flex;  /* Usa Flexbox para alinhar os itens horizontalmente */
+    gap: 1rem;  /* Espaço de 1rem entre os itens do menu */
+    flex-grow: 1;  /* Faz com que o menu ocupe o máximo de espaço disponível */
+    margin: 0 1rem;  /* Define margens de 1rem à esquerda e à direita */
+    position: relative;  /* Posiciona o menu de forma relativa */
+    left: 300px;  /* Move o menu 300px para a direita */
 }
 
 .menu li a {
-    text-decoration: none;
+    text-decoration: none;  /* Remove o sublinhado dos links */
     color: white;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
-
+    font-weight: normal;  /* Define o peso da fonte como normal */
+    transition: color 0.3s;  /* Adiciona uma transição suave para a mudança de cor */
+    padding: 0.5rem 0.8rem;  /* Adiciona espaçamento interno aos links */
+    font-size: 1.0em;  /* Define o tamanho da fonte dos links */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color: #C7E0A9;  /* Muda a cor do link quando passar o mouse por cima */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex;  /* Flexbox para alinhar as imagens */
+    gap: 0.5rem;  /* Espaço de 0.5rem entre as imagens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px;
+    width: 50px;  
+    height: auto;  
+    border-radius: 5px;  /* Arredonda os cantos das imagens */
 }
 
+/* Estilo do corpo da página (body) */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F1F1E7;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;  /* Define a fonte padrão do corpo (afetará o cabeçalho) */
+    background-color: #F1F1E7; 
+    margin: 0;  
+    padding: 0;  
+    overflow-x: hidden;  /* Impede o scroll horizontal */
 }
 
-h1{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    color: #3A6E29;
-    grid-row: 1;
+/* Estilo do título principal (h1) */
+h1 {
+    text-align: center;  
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px; 
+    color: #3A6E29; 
+    grid-row: 1; 
 }
 
 .bloco {
-    display: grid;
-    background-color: #F1F1E7;
-    border: 5px solid #1F611D;
-    height: auto;
-    padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 70px;
-    grid-template-rows: 100px 50px repeat(3, 120px);
-    row-gap: 10px;
-    grid-template-columns: 100px repeat(2, 200px) 300px 200px;
-    column-gap: 20px;
-    position: relative; 
+    display: grid; /* Define o layout como grid */
+    background-color: #F1F1E7; 
+    border: 5px solid #1F611D; 
+    height: auto; /* A altura será determinada pelo conteúdo automaticamente */
+    padding: 10px; /* Espaçamento interno de 10px */
+    margin-left: 100px; /* Margem esquerda de 100px */
+    margin-right: 100px; /* Margem direita de 100px */
+    margin-bottom: 70px; /* Margem inferior de 70px */
+    grid-template-rows: 100px 50px repeat(3, 120px); /* Define a altura das linhas do grid: 100px, 50px, e 3 linhas de 120px cada */
+    row-gap: 10px; /* Espaçamento de 10px entre as linhas do grid */
+    grid-template-columns: 100px repeat(2, 200px) 300px auto; /* Define a largura das colunas: 100px, 2 colunas de 200px e 300px, seguido de uma coluna automática */
+    column-gap: 20px; /* Espaçamento de 20px entre as colunas do grid */
+    position: relative; /* Define o bloco como relativo para posicionamento dos elementos dentro dele */
 }
 
 .bloco::before {
-    content: "";
-    position: absolute;
+    content: ""; /* Cria um conteúdo vazio (uma linha separando o bloco no meio) */
+    position: absolute; /* Posiciona o elemento absolutamente dentro do bloco */
     width: 5px; 
-    height: 100%; 
-    background-color: #3A6E29;
-    top: 0; 
+    height: 100%; /* Altura igual ao tamanho do bloco */
+    background-color: #3A6E29; /* Cor de fundo verde para a linha */
+    top: 0; /* Posiciona no topo */
 }
 
 .bloco::before {
-    left: 50%; 
-    transform: translateX(-50%); 
+    left: 50%; /* Posiciona o elemento no meio da largura do bloco */
+    transform: translateX(-50%); /* Ajusta o elemento para que ele fique exatamente no centro */
 }
 
 .perfil_img {
-    height: 100px;
-    width: auto;
-    float: left;
-    left: 20px;
-    grid-column: 1;
-    grid-row: 1;
+    height: 100px; /* Define a altura da imagem do perfil como 100px */
+    width: auto; /* Largura automática para manter a proporção da imagem */
+    float: left; /* Faz a imagem flutuar para a esquerda */
+    left: 20px; /* Posiciona a imagem à esquerda com um espaço de 20px */
+    grid-column: 1; 
+    grid-row: 1; 
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 30px; 
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    grid-column: 2 / -1;
-    grid-row: 1;
-    margin-top: 50px;
+    font-style: normal; /* Define o estilo da fonte como normal */
+    grid-column: 2 / -1; /* O título ocupa a segunda coluna até a última coluna */
+    grid-row: 1; /* O título ocupa a primeira linha no grid */
+    margin-top: 50px; /* Margem superior de 50px */
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-style: normal;
-    color: #3D7F48;
-    grid-column: 1 / 2;
-    grid-row: 2; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px; 
+    font-style: normal; /* Estilo da fonte normal */
+    color: #3D7F48; 
+    grid-column: 1 / 2; /* O título ocupa a primeira coluna */
+    grid-row: 2; /* O título ocupa a segunda linha no grid */
 }
 
-.relogio{
-    grid-column: 1;
-    grid-row: 3;
-    margin-top: 80px;
-    margin-left: 75px;
+.relogio {
+    grid-column: 1; /* Coloca o relógio na primeira coluna */
+    grid-row: 3; /* Coloca o relógio na terceira linha */
+    margin-top: 80px; /* Margem superior de 80px */
+    margin-left: 75px; /* Margem esquerda de 75px */
 }
 
 .coluna1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    grid-column: 2;
-    grid-row: 3;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte para a coluna 1 */
+    font-size: 24px; 
+    grid-column: 2; /* Coloca a coluna 1 na segunda coluna */
+    grid-row: 3; /* Coloca a coluna 1 na terceira linha */
 }
 
 .coluna2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    grid-column: 3;
-    grid-row: 3;
-    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte para a coluna 2 */
+    font-size: 24px; 
+    grid-column: 3; /* Coloca a coluna 2 na terceira coluna */
+    grid-row: 3; /* Coloca a coluna 2 na terceira linha */
+    margin-left: 80px; /* Margem esquerda de 80px */
 }
 
-h4 { 
-    font-family: 'Times New Roman', Times, serif; 
+h4 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px; 
     color: #3D7F48; 
-    grid-column: 4 / -1; 
-    grid-row: 1; 
-    margin-left: 100px;
+    grid-column: 4 / -1; /* O título ocupa da quarta coluna até a última coluna */
+    grid-row: 1; /* O título ocupa a primeira linha no grid */
+    margin-left: 100px; /* Margem esquerda de 100px */
 }
 
 h5 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 20px;
-    font-style: normal;
-    color: #941616;
-    margin-left: 100px;
+    font-style: normal; 
+    color: #941616; 
+    margin-left: 100px; /* Margem esquerda de 100px */
 }
 
 .coluna3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    grid-column: 4;
-    grid-row: 2 / -1;
-    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 24px; 
+    grid-column: 4; /* Coloca a coluna 3 na quarta coluna */
+    grid-row: 2 / -1; /* A coluna 3 ocupa da segunda linha até a última linha */
+    margin-left: 100px; /* Margem esquerda de 100px */
 }
 
 .qrcode1 {
-    grid-column: 5;
-    grid-row: 3;
-    margin-left: 100px;
+    grid-column: 5; /* Coloca o QR Code 1 na quinta coluna */
+    grid-row: 3; /* Coloca o QR Code 1 na terceira linha */
+    margin-left: 100px; /* Margem esquerda de 100px */
 }
 
 .qrcode2 {
-    grid-column: 5;
-    grid-row: 5;
-    margin-left: 100px;
+    grid-column: 5; /* Coloca o QR Code 2 na quinta coluna */
+    grid-row: 5; /* Coloca o QR Code 2 na quinta linha */
+    margin-left: 100px; /* Margem esquerda de 100px */
 }
 
+
+/* Estilo do rodapé (footer) */
 footer {
-    background-color: #6b8e4e;
-    padding: 10px 20px;
+    background-color: #6b8e4e;  
+    padding: 10px 20px;  
     text-align: left; 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: fixed;  /* Torna o rodapé fixo na parte inferior da tela */
+    bottom: 0;  /* Posiciona o rodapé na parte inferior */
+    width: 100%;  /* Faz o rodapé ocupar toda a largura da tela */
 }
 
 footer p {
-    margin: 0; 
-    font-size: 1rem;
+    margin: 0;  /* Remove a margem ao redor do texto */
+    font-size: 1rem; 
     color: white; 
 }
