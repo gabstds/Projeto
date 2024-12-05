@@ -1,0 +1,146 @@
+/* Reset Básico */
+* {
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove espaçamentos internos padrão */
+    box-sizing: border-box; /* Inclui bordas e espaçamentos no cálculo do tamanho total */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo do texto */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    background-color: #F1F1E7; /* Cor de fundo da página */
+    color: #333; /* Cor principal do texto */
+}
+
+/* Cabeçalho */
+header {
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 0rem; /* Remove o espaçamento interno */
+}
+
+.menu-container {
+    display: flex; /* Utiliza flexbox para organizar os elementos horizontalmente */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: space-between; /* Distribui os itens com o máximo de espaço entre eles */
+    background: #6b8e4e; /* Cor de fundo do container */
+    padding: 1rem; /* Espaçamento interno ao redor dos itens */
+}
+
+.menu-imagens-direita {
+    display: flex; /* Exibe os itens horizontalmente em linha */
+    gap: 0.5rem; /* Espaçamento horizontal entre os itens */
+}
+
+.menu-imagens-direita img {
+    width: 50px; /* Define a largura das imagens */
+    height: auto; /* Ajusta a altura proporcional à largura */
+    border-radius: 5px; /* Bordas arredondadas nas imagens */
+}
+
+.menu-texto h1 {
+    display: flex; /* Alinha os textos horizontalmente */
+    gap: 0.5rem; /* Adiciona espaço entre os textos */
+    font-size: 1em; /* Tamanho do texto do cabeçalho */
+}
+
+.menu {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    display: flex; /* Organiza os itens em linha */
+    gap: 1rem; /* Espaçamento entre os itens */
+    flex-grow: 1; /* Permite que o menu expanda conforme necessário */
+    margin: 0 1rem; /* Espaçamento interno horizontal */
+    position: relative; /* Permite ajuste da posição */
+    left: 300px; /* Move o menu para a direita */
+}
+
+.menu li a {
+    text-decoration: none; /* Remove sublinhados dos links */
+    color: white; /* Define a cor dos textos dos links */
+    font-weight: normal; /* Peso padrão da fonte */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+    padding: 0.5rem 0.8rem; /* Espaçamento interno dos links */
+    font-size: 1.0em; /* Tamanho do texto */
+}
+
+.menu li a:hover {
+    color: #C7E0A9; /* Cor dos links ao passar o mouse */
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px; /* Largura máxima do container principal */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #F1F1E7; /* Cor de fundo */
+    border: 1px solid #F1F1E7; /* Adiciona uma borda sutil */
+    border-radius: 8px; /* Arredonda as bordas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+.post-section h1 {
+    text-align: center; /* Centraliza o título */
+    color: #6b8e4e; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.post {
+    padding: 15px; /* Espaçamento interno da postagem */
+}
+
+.post h2 {
+    font-size: 1.5em; /* Tamanho do título da postagem */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+    color: #333; /* Cor do texto do título */
+}
+
+.post .alert {
+    color: red; /* Cor de destaque para alertas */
+    font-weight: bold; /* Negrito para alertas */
+}
+
+.post img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 15px; /* Espaçamento superior */
+    border-radius: 5px; /* Arredonda os cantos das imagens */
+}
+
+.post-actions {
+    display: flex; /* Organiza os botões horizontalmente */
+    justify-content: flex-start; /* Alinha os botões à esquerda */
+    margin-top: 15px; /* Espaçamento superior */
+}
+
+.post-actions button {
+    border: none; /* Remove a borda dos botões */
+    background-color: transparent; /* Fundo transparente */
+    font-size: 1.5em; /* Tamanho do texto ou ícone do botão */
+    cursor: pointer; /* Mostra o ponteiro de mão ao passar o mouse */
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+.post-actions .like-btn {
+    color: #6b8e4e; /* Cor do botão de curtir */
+}
+
+.post-actions .delete-btn {
+    color: red; /* Cor do botão de deletar */
+}
+
+/* Rodapé */
+footer {
+    background-color: #6b8e4e; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    position: fixed; /* Fixa o rodapé na parte inferior da janela */
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    bottom: 0; /* Garante que o rodapé esteja no fundo da página */
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Largura da logo */
+    text-align: left; /* Alinha a logo à esquerda */
+}
