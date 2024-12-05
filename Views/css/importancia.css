@@ -89,10 +89,10 @@ header {
 
 
 .borda-vermelha {
-        border-top: 50px solid #800707; /* Borda superior vermelha. */
+        border-top: 30px solid #800707; /* Borda superior vermelha. */
         margin-top: 40px; /* Margem superior. */
-        border-bottom: 50px solid #800707; /* Borda inferior vermelha. */
-        margin-bottom: 20px; /* Margem inferior. */
+        border-bottom: 30px solid #800707; /* Borda inferior vermelha. */
+        margin-bottom: 40px; /* Margem inferior. */
         padding: 20px; /* Espaçamento interno. */
         text-align: center; /* Centraliza o texto horizontalmente. */
         font-size: 20px; /* Tamanho médio do texto. */
