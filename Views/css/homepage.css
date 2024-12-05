@@ -71,12 +71,11 @@ header {
     background-color: #A8C095; /* Fundo verde claro */
     color: #6b8e23; /* Texto verde escuro */
     border: none; /* Remove borda */
-    padding: 10px 10px; /* Espaçamento interno */
+    padding: 10px 20px; /* Espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
     font-size: 15px; /* Tamanho do texto */
     cursor: pointer; /* Cursor em formato de mão */
-    margin: 0; /* Remove margem */
-
+    margin: 0px; /* Remove margem */
 }
 
 
