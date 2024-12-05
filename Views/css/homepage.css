@@ -75,9 +75,8 @@ header {
     border-radius: 5px; /* Bordas arredondadas */
     font-size: 15px; /* Tamanho do texto */
     cursor: pointer; /* Cursor em formato de mão */
-    margin: 0px; /* Remove margem */
+    margin: 0; /* Remove margem */
 }
-
 
 /*Corpo do site */
 
