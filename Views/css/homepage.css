@@ -1,3 +1,4 @@
+/* Reseta as margens e os paddings de todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -5,67 +6,66 @@
 
 /* Estilo corpo da página */
 body {
-    font-family: Arial, sans-serif; 
-    line-height: 1.7; 
-    color:#000000; 
-    background-color: #ffffff; 
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.7; /* Espaçamento entre linhas */
+    color: #000000; /* Cor do texto em preto */
+    background-color: #ffffff; /* Fundo branco */ 
 }
 
 /* Cabeçalho */
 header {
-    background: #6b8e4e;
-    color:#ffffff;
-    padding: 0rem;
+    background: #6b8e4e;/* Cor de fundo verde */
+    color: #ffffff; /* Texto branco */
+    padding: 0rem; /* Sem espaçamento interno */
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex;/* Usa flexbox para organizar os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    background: #6b8e4e; /* Fundo verde */
+    padding: 1rem; /* Espaçamento interno */
 }
 
 .menu li a {
-    display: flex;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em;
-    margin-right: 20px; 
-    color: white; 
-    font-size: 16px;
-    align-items: center;
+    display: flex; /* Organiza os elementos dentro do link como flexbox */
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #ffffff; /* Cor branca para o texto */
+    font-weight: normal; /* Peso normal da fonte */
+    transition: color 0.3s; /* Efeito de transição para mudança de cor */
+    padding: 0.5rem 0.8rem; /* Espaçamento interno */
+    font-size: 1.0em; /* Tamanho da fonte */
+    margin-right: 20px; /* Espaçamento à direita */
+    align-items: center; /* Alinha o conteúdo interno ao centro */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color:#C7E0A9; /* Muda a cor do link ao passar o mouse */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    display: flex;/* Usa flexbox */
+    align-items: center; /* Centraliza verticalmente as imagens */
+    gap: 0.5rem; /* Espaçamento entre as imagens */
+
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px;
-
+    width: 50px; /* Largura fixa */
+    height: auto; /* Altura proporcional */
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
 .menu {
-    display:flex;
-    align-items: center;
-    list-style: none;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    display:flex; /* Usa flexbox */
+    align-items: center; /* Centraliza verticalmente os itens */
+    list-style: none; /* Remove marcadores */
+    gap: 1rem; /* Espaçamento entre os itens */
+    flex-grow: 1; /* Permite que o menu ocupe espaço disponível */
+    margin: 0 1rem; /* Margem horizontal */
+    position: relative; /* Posicionamento relativo */
+    left: 200px; /* Move o menu 200px à direita */
+
 }
 .button_cadastro {
     background-color: #A8C095;
