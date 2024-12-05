@@ -8,8 +8,7 @@ body {
 
 /* Container principal */
 .container {
-    max-width: 900px; /* Define a largura máxima do container */
-    margin: auto; /* Centraliza o container horizontalmente */
+    margin: 30px auto; /* Centraliza o container horizontalmente */
     padding: 20px; /* Adiciona espaçamento interno */
     background-color: #F1F1E7; /* Define a cor de fundo do container */
     border-radius: 8px; /* Arredonda os cantos do container */
@@ -121,4 +120,5 @@ footer {
     background-color: #6b8e4e; /* Define a cor de fundo do rodapé */
     color: white; /* Define a cor do texto no rodapé */
     border-radius: 0 0 8px 8px; /* Arredonda os cantos inferiores do rodapé */
+    margin-top: 140px;
 }

@@ -10,6 +10,8 @@ body {
     line-height: 1.6; /* Define o espaçamento entre linhas */
     background-color: #F1F1E7; /* Define a cor de fundo da página */
     color: #333; /* Define a cor principal do texto */
+    overflow-x: hidden;
+
 }
 
 /* Cabeçalho */
