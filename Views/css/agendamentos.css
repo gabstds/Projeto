@@ -63,49 +63,73 @@ header {
 
 /* Corpo do site */
 
-
-.container{
-    border-top: 30px solid #ffffff;
-    border-bottom: 30px solid #ffffff;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0;
+container {
+    display: grid;/* Define um layout em grade */
+    grid-template-columns: 2; /* Duas colunas */
+    grid-template-rows: 2; /* Duas linhas */
+    column-gap: 40px; /* Espaçamento entre colunas */
 }
 
 .text-agendamentos h1 {
-    text-align: right;
-    font-size: 20px;
     margin-top: 100px;
-    color:#ffffff;
-    
+    margin-right: 50px;
+    font-family:'Times New Roman', Times, serif; /* Fonte serifada. */
+    text-align: right; /* Texto à direita. */
+    font-size: 20px; /* Tamanho médio. */
+    margin-top: 100px;  /* Espaço superior. */
+    color:#ffffff; /* Branco. */
+    grid-column: 2; /* Segunda coluna no grid. */
+    grid-row: 1; /* Primeira linha no grid. */
 }
-
 .text-agendamentos p {
-    text-align: right;
-    font-size: 15px;
-    margin-bottom: 100px;
-    justify-content:right;
-    color:#ffffff;
+    font-family:Arial, sans-serif; /* Fonte sem serifa. */
+    font-size: 20px; /* Tamanho médio. */
+    color:#ffffff; /* Branco. */
+    text-align: right; /* Alinhado à direita. */
 }
 
 .calendario img {
     position:absolute;
     left: 0;
+    grid-column: 1;/* Primeira coluna no grid. */
+    margin-top: 50px; /* Espaço superior. */
+    margin-left: 30px; /* Espaço à esquerda. */
+    grid-row: 1; /* Primeira linha no grid. */
+    width: 400px; /* Largura fixa. */
 }
 
 .button_premiacao {
-    background-color: #A8C095;
-    color: #6b8e23;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 75px;
-    text-align: center;
-    cursor:pointer;
-    position:absolute;
-    right: 0;
+    background-color: #A8C095;/* Fundo verde claro. */
+    color: #6b8e23; /* Texto verde. */
+    border: none; /* Sem borda. */
+    padding: 10px 20px; /* Espaçamento interno. */
+    border-radius: 5px; /* Bordas arredondadas. */
+    font-size: 16px; /* Texto médio. */
+    width: 108px; /* Largura fixa. */
+    height: 20px; /* Altura fixa.*/
+    cursor:pointer; /* Cursor clicável. */
+    grid-column: 2; /* Segunda coluna no grid. */
+    grid-row: 2; /* Segunda linha no grid. */
+    position: absolute;
+    right: 70px;
+    margin-top: 100px;
+    
 }
+
+.button_premiacao a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #ffffff; /* Texto branco. */
+}
+
+.borda_branca  {
+    border-top: 30px solid #ffffff; /* Borda superior branca. */
+    padding: 158px; /* Espaçamento interno. */
+    background-color: rgb(0, 0, 0); /* Fundo preto. */
+    border-bottom: 30px solid #ffffff; /* Borda inferior branca. */
+    padding: 159px; /* Espaçamento interno. */
+    background-color: rgb(0, 0, 0); /* Fundo preto. */
+}
+
 
 /* rodapé */
 footer {
