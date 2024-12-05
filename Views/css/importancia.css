@@ -1,3 +1,4 @@
+/* Reset de margens e padding para todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -5,93 +6,92 @@
 
 /* Estilo corpo da página */
 body {
-    font-family: Arial, sans-serif; 
-    line-height: 1.7; 
-    color:#000000; 
-    background-color: #ffffff; 
+    font-family: Arial, sans-serif; /* Define a fonte principal. */
+    line-height: 1.7; /* Define o espaçamento entre linhas para legibilidade. */
+    color: #000000; /* Cor do texto preta. */
+    background-color: #f4f4f4; /* Define a cor de fundo como cinza claro. */
 }
 
 /* Cabeçalho */
 header {
-    background: #6b8e4e;
-    color:#ffffff;
-    padding: 0rem;
+    background: #6b8e4e; /* Define o fundo como verde. */
+    color: #ffffff; /* Texto branco no cabeçalho. */
+    padding: 0rem; /* Remove o espaçamento interno. */
 }
 
 .menu-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background: #6b8e4e;
-    padding: 1rem;
+    display: flex;/* Alinha itens do menu horizontalmente. */
+    align-items: center; /* Alinha verticalmente os itens. */
+    justify-content: space-between; /* Espaçamento igual entre os itens. */
+    background: #6b8e4e; /* Fundo verde. */
+    padding: 1rem; /* Adiciona espaçamento interno. */
 }
 
 .menu li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: normal;
-    transition: color 0.3s;
-    padding: 0.5rem 0.8rem;
-    font-size: 1.0em
-
+    text-decoration: none; /* Remove o sublinhado dos links. */
+    color: #ffffff; /* Texto branco. */
+    font-weight: normal; /* Define o peso normal da fonte. */
+    transition: color 0.3s; /* Animação de transição de cor ao passar o mouse. */
+    padding: 0.5rem 0.8rem; /* Define o espaçamento interno dos links. */
+    font-size: 1.0em; /* Tamanho padrão do texto. */
 }
 
 .menu li a:hover {
-    color:#C7E0A9;
+    color:#C7E0A9;  /* Cor verde-claro ao passar o mouse. */
 }
 
 .menu-imagens-direita {
-    display: flex;
-    gap: 0.5rem;
+    display: flex; /* Alinha as imagens horizontalmente. */
+    gap: 0.5rem; /* Espaçamento entre imagens. */
 }
 
 .menu-imagens-direita img {
-    width: 50px; 
-    height: auto;
-    border-radius: 5px; 
+    width: 50px; /* Largura fixa das imagens. */
+    height: auto; /* Altura proporcional. */
+    border-radius: 5px; /* Bordas arredondadas. */
+  
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 1; 
-    margin: 0 1rem;
-    position: relative;
-    left: 300px;
+    list-style: none; /* Remove os marcadores de lista. */
+    display: flex; /* Coloca os itens do menu em linha. */
+    gap: 1rem; /* Espaçamento entre os itens. */
+    flex-grow: 1; /* Preenche o espaço restante. */
+    margin: 0 1rem; /* Margem lateral. */
+    position: relative; /* Permite ajustes posicionais relativos. */
+    left: 300px; /* Move o menu para a direita. */
 }
 
 
 /*Corpo do Site*/
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: left;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+    display: flex; display: flex; /* Layout flexível para centralizar itens. */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente. */
+    align-items: center; /* Centraliza o conteúdo verticalmente. */
+    background-color: #f4f4f4; /* Cor de fundo cinza claro. */
+    font-family: Arial, sans-serif; /* Fonte Arial, fallback para sans-serif. */
 }
 
 .borda-vermelha {
-        border-top: 50px solid #800707; 
-        margin-top: 40px; 
-        border-bottom: 50px solid #800707; 
-        margin-bottom: 20px;
-        padding: 20px;
-        text-align: center;
-        font-size: 20px;
-        background-color: white;
-    }
+        border-top: 50px solid #800707; /* Borda superior vermelha. */
+        margin-top: 40px; /* Margem superior. */
+        border-bottom: 50px solid #800707; /* Borda inferior vermelha. */
+        margin-bottom: 20px; /* Margem inferior. */
+        padding: 20px; /* Espaçamento interno. */
+        text-align: center; /* Centraliza o texto horizontalmente. */
+        font-size: 20px; /* Tamanho médio do texto. */
+        background-color: white; /* Fundo branco. */
+}
 
 .text-importancia p {
-    text-align: left;
-    font-size: 19px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: justify;
+    text-align: left;text-align: justify; /* Alinha o texto com margens justificadas. */
+    font-size: 19px; /* Tamanho do texto médio. */
+    font-family: 'Times New Roman', Times, serif; /* Fonte serifada. */
+    text-align: left; /* Texto alinhado à esquerda. */
 }
 .text-importancia li {
-    text-align: left;
+    text-align: left; 
     font-size: 19px;
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
@@ -99,14 +99,14 @@ body {
 
 /* rodapé */
 footer {
-    background-color: #6b8e4e;
-    color:#ffffff;
-    padding: 10px; 
-    text-align: left;
-    position: fixed; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    border: none;
-    margin: 0;
+    background-color: #6b8e4e;/* Fundo verde. */
+    color: #ffffff; /* Texto branco. */
+    padding: 10px; /* Espaçamento interno. */
+    text-align: left; /* Texto alinhado à esquerda. */
+    position: fixed; /* Fixa o rodapé na parte inferior da página. */
+    bottom: 0; /* Alinha ao final da tela. */
+    left: 0; /* Alinha ao lado esquerdo da tela. */
+    width: 100%; /* O rodapé ocupa toda a largura. */
+    border: none; /* Remove qualquer borda. */
+    margin: 0; /* Remove margens adicionais. */
 }
