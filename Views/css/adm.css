@@ -1,63 +1,68 @@
+* { /* Padrão global */
+    margin: 0; /* Remove margem dos elementos*/
+    padding: 0; /* Remove espaçamento dos elementos*/
+    box-sizing: border-box; /* Facilita o controle das dimensões*/
+}
+
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial ou sans-serif */
-    background-color: #f0f0e5; /* Define a cor de fundo da página */
-    color: #ffffff; /* Define a cor do texto padrão */
-    margin: 0; /* Remove a margem padrão do corpo da página */
-    padding: 0; /* Remove o preenchimento padrão do corpo da página */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão*/
+    background-color: #f0f0e5; /* Define a cor de fundo*/
+    overflow-x: hidden; /* Desabilita o scroll horizontal*/
 }
 
 header {
-    background: #6b8e4e; /* Define a cor de fundo do cabeçalho */
-    color: white; /* Define a cor do texto no cabeçalho */
-    padding: 0rem; /* Define o espaçamento interno do cabeçalho como zero */
+    background: #6b8e4e; /* Define a cor de fundo do cabeçalho*/
+    color: white; /* Define a cor do texto do cabeçalho*/
+    padding: 0rem; /* Define o espaçamento do cabeçalho*/
 }
 
 .menu-container {
-    display: flex; /* Utiliza flexbox para organizar os itens no menu */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-between; /* Espaça os itens igualmente entre as bordas */
-    background: #6b8e4e; /* Define a cor de fundo do menu */
-    padding: 1rem; /* Adiciona um espaçamento interno ao menu */
+    display: flex; /* Define um layout flexível*/
+    align-items: center; /* Alinha os itens no centro*/
+    justify-content: space-between; /* Distribui os itens com espaço máximo entre eles*/
+    background: #6b8e4e; /* Define a cor de fundo do container*/
+    padding: 1rem; /* Define o espaçamento do container*/
 }
 
 .menu-imagens-direita {
-    display: flex; /* Define um layout flexível para organizar imagens */
-    gap: 0.5rem; /* Define o espaçamento entre os itens */
+    display: flex; /* Define um layout flexível*/
+    gap: 0.5rem; /* Adiciona espaçamento entre os itens */
 }
 
 .menu-imagens-direita img {
-    width: 50px; /* Define a largura das imagens */
-    height: auto; /* Ajusta a altura proporcional à largura */
-    border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
+    width: 50px; /* Define a largura da imagem */
+    height: auto; /* Ajusta a altura proporcionalmente à largura*/
+    border-radius: 5px; /* Arredonda as bordas*/
 }
 
-.menu-texto h1 {
-    display: flex; /* Define um layout flexível para o título */
-    gap: 0.5rem; /* Define o espaçamento entre elementos filhos */
-    font-size: 1em; /* Define o tamanho da fonte do título */
+.menu-texto h1{
+    display: flex; /* Define um layout flexível*/
+    gap: 0.5rem; /* Adiciona espaçamento entre os itens */
+    font-size: 1em; /* Define o tamanho da fonte*/
 }
 
 .menu {
-    list-style: none; /* Remove a formatação de lista padrão (como marcadores) */
-    display: flex; /* Define os itens do menu como flexíveis */
-    gap: 1rem; /* Define o espaçamento entre os itens do menu */
-    flex-grow: 1; /* Faz com que o menu cresça para ocupar o espaço disponível */
-    margin: 0 1rem; /* Define margens laterais */
-    position: relative; /* Define a posição como relativa para posicionamento adicional */
-    left: 300px; /* Move o menu para a direita */
+    list-style: none; /* Remove os marcadores dos itens da lista */
+    display: flex; /* Define um layout flexível */
+    gap: 1rem; /* Adiciona espaçamento entre os itens */
+    justify-content: center; /* Centraliza os itens do menu */
+    margin: 0; /* Remove margens extras */
+    padding: 0; /* Remove espaçamento interno */
+    position: static; /* Remove o posicionamento relativo */
+    align-items: center; /* Alinha os itens no centro*/
 }
 
 .menu li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: white; /* Define a cor dos links como branca */
-    font-weight: normal; /* Define o peso da fonte como normal */
-    transition: color 0.3s; /* Adiciona uma transição suave ao mudar a cor */
-    padding: 0.5rem 0.8rem; /* Adiciona preenchimento interno aos links */
-    font-size: 1.0em; /* Define o tamanho da fonte */
+    text-decoration: none; /* Remove sublinhados dos links*/
+    color: white; /* Define a cor do texto*/
+    font-weight: normal; /* Define o peso da fonte como normal*/
+    transition: color 0.3s; /* Cria uma animação ao mudar a cor*/
+    padding: 0.5rem 0.8rem; /* Adiciona espaçamento interno ao link*/
+    font-size: 1.0em /* Define o tamanho da fonte*/
 }
 
 .menu li a:hover {
-    color: #C7E0A9; /* Muda a cor do link ao passar o mouse */
+    color:#C7E0A9; /* Muda a cor do link ao passar o mouse*/
 }
 
 .container {
