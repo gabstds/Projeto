@@ -127,9 +127,16 @@ header {
     border-radius: 5px; /* Bordas arredondadas. */
     font-size: 16px; /* Texto médio. */
     width: 35px; /* Largura fixa. */
+    height: 20px;
     cursor:pointer; /* Cursor clicável. */
     grid-column: 2; /* Segunda coluna no grid. */
     grid-row: 2; /* Segunda linha no grid. */
+    
+}
+
+.button_leis a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #ffffff; /* Texto branco. */
 }
 
 /* rodapé */
