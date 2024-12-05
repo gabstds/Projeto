@@ -71,7 +71,7 @@ header {
     background-color: #A8C095; /* Fundo verde claro */
     color: #6b8e23; /* Texto verde escuro */
     border: none; /* Remove borda */
-    padding: 10px 10px; /* Espaçamento interno */
+    padding: 10px 20px; /* Espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
     font-size: 15px; /* Tamanho do texto */
     cursor: pointer; /* Cursor em formato de mão */
@@ -125,9 +125,16 @@ header {
     border-radius: 5px; /* Bordas arredondadas. */
     font-size: 16px; /* Texto médio. */
     width: 35px; /* Largura fixa. */
+    height: 20px;
     cursor:pointer; /* Cursor clicável. */
     grid-column: 2; /* Segunda coluna no grid. */
     grid-row: 2; /* Segunda linha no grid. */
+    
+}
+
+.button_leis a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #ffffff; /* Texto branco. */
 }
 
 /* rodapé */

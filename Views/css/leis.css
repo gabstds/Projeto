@@ -69,11 +69,12 @@ body {
     align-items: center; /* Centraliza conteúdo verticalmente. */
     margin: left; /* Inválido, "left" não é valor válido para margin. */
     background-color: #f4f4f4; /* Cor de fundo cinza claro. */
+    overflow-x: hidden; /* Impende scroll horizontal */ 
 }
 
 .borda-vermelha {
         border-top: 24px solid #800707; /* Borda superior vermelha. */
-        border-bottom: 24px solid #800707; /* Borda inferior vermelha. */
+        border-bottom: 25px solid #800707; /* Borda inferior vermelha. */
         padding: 20px; /* Espaçamento interno de 20px. */
         text-align: center; /* Alinha texto no centro. */
         font-size: 20px; /* Define o tamanho da fonte. */
@@ -101,7 +102,6 @@ footer {
     color: #ffffff; /* Texto branco. */
     padding: 10px; /* Espaçamento interno. */
     text-align: left; /* Texto alinhado à esquerda. */
-    position: fixed; /* Fixa o rodapé na parte inferior da página. */
     bottom: 0; /* Alinha ao final da tela. */
     left: 0; /* Alinha ao lado esquerdo da tela. */
     width: 100%; /* O rodapé ocupa toda a largura. */
