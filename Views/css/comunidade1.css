@@ -169,20 +169,24 @@ h1 {
 }
 
 /* Estilo do botão de postagem */
-.botao_postagem {
+.botao_postagem { 
     background-color: #941616; 
     height: 50px;  
     width: 250px; 
     cursor: pointer;  /* Muda o cursor para indicar que é clicável */
     grid-column: 3;  
-    grid-row: 4;  
+    grid-row: 4;
 }
 
-.botao_postagem p {
+.botao_postagem p  {
     color: white; 
     text-align: center;  /* Centraliza o texto dentro do botão */
     font-size: 17px;  
     transform: translateY(-20%);  /* Move o texto para cima */
+}
+
+.botao_postagem  a{
+    text-decoration: none; /* Tira o sublinhado do link */
 }
 
 .botao_postagem:hover {

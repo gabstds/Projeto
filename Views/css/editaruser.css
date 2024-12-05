@@ -207,7 +207,6 @@ input {
 /* Estilo para o botão de salvar */
 .botao_salvar {
     background-color: #941616; 
-    color: #ffffff; 
     width: 100px; 
     height: 50px; 
     text-align: center; 
@@ -221,6 +220,16 @@ input {
     margin-left: 50px; 
     margin-top: 50px; 
 }
+
+.botao_salvar > a {
+    text-decoration: none; /* Retira o sublinhado de link */
+    color: white;
+}
+
+.botao_salvar:hover {
+    background-color: #b52d2d;  /* Muda a cor do botão quando passar o mouse por cima */
+}
+
 
 /* Estilo do rodapé (footer) */
 footer {
