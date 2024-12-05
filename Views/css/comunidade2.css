@@ -172,6 +172,11 @@ h1 {
     text-align: center;  /* Centraliza o texto dentro do botão */
     font-size: 17px;  
     transform: translateY(-20%);  /* Move o texto para cima */
+    text-decoration: none; 
+}
+
+.botao_postagem a{
+    text-decoration: none; /* Tira o sublinhado do link */
 }
 
 .botao_postagem:hover {
