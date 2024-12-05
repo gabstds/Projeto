@@ -8,99 +8,84 @@
     <link rel="stylesheet" href="css/premiacao.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header> <!-- Início do cabeçalho da página -->
+        <div class="logo"> <!-- Container para a logo -->
             <img src="media/logo_codecrafters_redimensionada.png" alt="Logo empresa CodeCrafters">
         </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">HOMEPAGE</a></li>
-                    <li><a href="#">AGENDAMENTOS</a></li>
-                    <li><a href="#">COMUNIDADE</a></li>
-                    <li><a href="#">IMPORTÂNCIA</a></li>
-                </ul>
-            </nav>
-                <div class="menu-imagens-direita">
-                    <img src="media/user.png" alt="Símbolo user">
+        <nav> <!-- Início da navegação principal -->
+            <ul class="menu"> <!-- Lista de navegação -->
+                <li><a href="HOMEPAGE.html">HOMEPAGE</a></li> <!-- Item de menu que leva para a homepage -->
+                <li><a href="agendamentos.html">AGENDAMENTOS</a></li> <!-- Item de menu para agendamentos -->
+                <li><a href="comunidade1.html">COMUNIDADE</a></li> <!-- Item de menu para a seção de comunidade -->
+                <li><a href="IMPORTANCIA.html">IMPORTÂNCIA</a></li> <!-- Item de menu para informações sobre a importância -->
+            </ul>
+        </nav> <!-- Fim da navegação -->
+        <div class="menu-imagens-direita"> <!-- Container para a imagem de login/cadastro-->
+            <a href="editaruser.html">
+            <img src="media/user.png" alt="Símbolo user">
+            </a>
+        </div>
+    </header> 
+<main>
+    <section> <!-- Seção que agrupa os artigos da página -->
+        <!-- Artigo para o título "Premiação" -->
+        <article>
+            <h1> Premiação </h1> <!-- Título principal da página -->
+        </article>
+        <!-- Artigo para o conteúdo da premiação -->
+        <article> 
+            <!-- Bloco que contém os detalhes do usuário e das premiações -->
+            <div class="bloco">
+                <!-- Imagem de perfil do usuário -->
+                <div class="perfil_img">
+                    <img src="media/imagemperfiluser.png" alt="Imagem de perfil">
+                </div>
+                <h3> Celso Giusti </h3> <!-- Exibe o nome do usuário -->
+                <h2> Agendamentos </h2> <!-- Indica a seção de agendamentos do usuário -->
+                <!-- Ícone representando o status pendente de agendamentos -->
+                <div class="relogio">
+                    <img src="media/iconerelogio.png" alt="Símbolo pendente">
+                </div>
+                <!-- Primeira coluna de agendamentos -->
+                <div class="coluna1">
+                    <br>
+                    <p> 29/12/2024; Pendente </p> <!-- Agendamento pendente -->
+                    <br>
+                    <p> 27/11/2024; Concluído </p> <!-- Agendamento concluído -->
+                    <br>
+                    <p> 20/10/2024; Concluído </p> <!-- Agendamento concluído -->
+                </div>
+                <div class="coluna2">
+                    <br>
+                    <p> 23/09/2024; Concluído </p> <!-- Agendamento concluído -->
+                    <br>
+                    <p> 19/08/2024; Concluído </p> <!-- Agendamento concluído -->
+                    <br>
+                    <p> 27/07/2024; Concluído </p> <!-- Agendamento concluído -->
+                </div>
+                <h4> Recolha seus pontos! </h4> <!-- Título para a seção de recompensas -->
+                <!-- Coluna que contém os cupons de desconto -->
+                <div class="coluna3">
+                    <h5> CUPOM: </h5> <!-- Cabeçalho para o primeiro cupom -->
+                    <p> 20% de desconto em um combo Burger King mais perto de sua cidade </p> <!-- Descrição do primeiro cupom -->
+                    <br>
+                    <h5> CUPOM: </h5> <!-- Cabeçalho para o segundo cupom -->
+                    <p> LEVE 2 PAGUE 1 no Açaí da Barra </p> <!-- Descrição do segundo cupom -->
+                </div>
+                <!-- QR code associado ao primeiro cupom -->
+                <div class="qrcode1">
+                    <img src="media/qrcode.png" alt="QRCode">
+                </div>
+                <!-- QR code associado ao segundo cupom -->
+                <div class="qrcode2">
+                    <img src="media/qrcode.png" alt="QRCode">
                 </div>
             </div>
-    </header>
-    <main>
-        <section>
-            <article>
-                <h1> Premiação </h1>
-            </article>
-            <article> 
-                <div class="bloco">
-                    <div class="perfil_img">
-                        <img src="media/imagemperfiluser.png" alt="Imagem de perfil">
-                    </div>
-                    <h3> Celso Giusti </h3>
-                    <h2> Agendamentos </h2>
-                    <div class="relogio">
-                        <img src="media/iconerelogio.png" alt="Símbolo pendente">
-                    </div>
-                    <div class="coluna1">
-                        <br>
-                        <p> 29/12/2024;
-                            Pendente </p>
-                        <br>
-                        <p> 27/11/2024;
-                            Concluído
-                        </p>
-                        <br>
-                        <p> 20/10/2024;
-                            Concluído
-                        </p>
-                    </div>
-                    <div class="coluna2">
-                        <br>
-                        <p> 23/09/2024;
-                            Concluído </p>
-                        <br>
-                        <p> 19/08/2024;
-                            Concluído
-                        </p>
-                        <br>
-                        <p> 27/07/2024;
-                            Concluído
-                        </p>
-                    </div>
-                    <div class="coluna2">
-                        <br>
-                        <p> 23/09/2024;
-                            Concluído </p>
-                        <br>
-                        <p> 19/08/2024;
-                            Concluído
-                        </p>
-                        <br>
-                        <p> 27/07/2024;
-                            Concluído
-                        </p>
-                    </div>
-                    <h4> Recolha seus pontos! </h4>
-                    <div class="coluna3">
-                        <h5> CUPOM: </h5>
-                        <p> 20% de desconto em um combo
-                            Burger King mais perto de sua 
-                            cidade </p>
-                        <br>
-                        <h5> CUPOM: </h5>
-                        <p> LEVE 2 PAGUE 1 no Açaí da Barra
-                        </p>
-                    </div>
-                    <div class="qrcode1">
-                        <img src="media/qrcode.png" alt="QRCode">
-                    </div>
-                    <div class="qrcode2">
-                        <img src="media/qrcode.png" alt="QRCode">
-                    </div>
-                </div>
-            </article>
-    </main>
+        </article> 
+    </section> 
+</main>
     <footer> 
-        <div class="rodape"> 
+        <div class="rodape"> <!-- Container para o rodapé -->
             <p>CODECRAFTERS©</p>
         </div>
     </footer>
