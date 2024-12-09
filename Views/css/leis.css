@@ -100,7 +100,7 @@ header {
 .text-leis h1 {
     color: #800707; /* Define a cor do texto como vermelho */
     text-align: left; /* Alinha o texto à esquerda */
-    font-size: 23px; /* Define o tamanho da fonte */
+    font-size: 21px; /* Define o tamanho da fonte */
     font-family: 'Times New Roman', Times, serif; /* Define a fonte */
     text-align: justify; /* Justifica o texto */
 }
@@ -108,7 +108,7 @@ header {
 /* Estilo para parágrafos dentro da classe 'text-leis' */
 .text-leis p {
     text-align: left; /* Alinha o texto à esquerda */
-    font-size: 20px; /* Define o tamanho da fonte */
+    font-size: 16.6px; /* Define o tamanho da fonte */
     font-family: 'Times New Roman', Times, serif; /* Define a fonte */
     text-align: justify; /* Justifica o texto */
     color: #000000; /* Define a cor do texto como preto */
