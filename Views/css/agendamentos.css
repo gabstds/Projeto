@@ -96,7 +96,7 @@ header {
 .text-agendamentos h1 {
     font-family:'Times New Roman', Times, serif; /* Fonte serifada. */
     text-align: right; /* Texto à direita. */
-    font-size: 17px; /* Tamanho médio. */
+    font-size: 19px; /* Tamanho médio. */
     margin-top: 150px;  /* Espaço superior. */
     color:#ffffff; /* Branco. */
     grid-column: 2; /* Segunda coluna no grid. */
@@ -105,13 +105,13 @@ header {
 
 .link a {
     font-family:Arial, sans-serif; /* Fonte sem serifa. */
-    font-size: 15px; /* Tamanho médio. */
+    font-size: 17px; /* Tamanho médio. */
     color:#ffffff; /* Branco. */
     text-align: right; /* Alinhado à direita. */
     grid-column: 2; /* Segunda coluna no grid. */
     grid-row: 1; /* Primeira linha no grid. */
     position: absolute;
-    right: 205px;
+    right: 210px;
     margin-top: 10px;
 }
 
@@ -128,7 +128,7 @@ header {
     grid-column: 2; /* Segunda coluna no grid. */
     grid-row: 2; /* Segunda linha no grid. */
     position: absolute;
-    right: 210px;
+    right: 225px;
     margin-top: 250px;
     
 }
@@ -136,7 +136,7 @@ header {
     position:absolute;
     left: 0;
     grid-column: 1;/* Primeira coluna no grid. */
-    margin-top: 12px; /* Espaço superior. */
+    margin-top: 30px; /* Espaço superior. */
     margin-left: 18px; /* Espaço à esquerda. */
     grid-row: 1; /* Primeira linha no grid. */
     width: auto; /* Largura fixa. */
