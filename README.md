@@ -3,9 +3,9 @@
  
 DESENVOLVEDORES:
 
-Gabriella Teixeira dos Santos;
-Italo da Cunha Nascimento;
-Camilla dos Santos Garcez;
-Ana Clara Oliveira Antunes;
-Miguel Oliveira Fortunato.
+1. Gabriella Teixeira dos Santos;
+2. Italo da Cunha Nascimento;
+3. Camilla dos Santos Garcez;
+4. Ana Clara Oliveira Antunes;
+5. Miguel Oliveira Fortunato.
 
