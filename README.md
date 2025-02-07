@@ -1,4 +1,4 @@
-# Projeto
+# PROJETO
 
 CODE CRAFTERS - GESTÃO DE RESÍDUOS
  
@@ -10,3 +10,7 @@ CODE CRAFTERS - GESTÃO DE RESÍDUOS
 4. Ana Clara Oliveira Antunes;
 5. Miguel Oliveira Fortunato.
 
+# LINGUAGENS:
+1. HTML;
+2. CSS;
+3. MYSL;
