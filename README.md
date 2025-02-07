@@ -1,6 +1,8 @@
 # PROJETO
 
 CODE CRAFTERS - GESTÃO DE RESÍDUOS
+
+A equipe CodeCrafters, a partir do desenvolvimento do site e de aprofundamentos de pesquisas, chegou a conclusão de que a Gestão de Resíduos é uma ação sustentável da atualidade. Além disso, ela sendo monitorada e incentivada, trará ótimas melhorias futuras para o ambiente e para a convivência social.
  
 # DESENVOLVEDORES:
 
