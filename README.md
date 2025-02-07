@@ -1,7 +1,8 @@
 # Projeto
- Code Crafters- Gestão de Residuos 
+
+CODE CRAFTERS - GESTÃO DE RESÍDUOS
  
-DESENVOLVEDORES:
+# DESENVOLVEDORES:
 
 1. Gabriella Teixeira dos Santos;
 2. Italo da Cunha Nascimento;
