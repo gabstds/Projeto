@@ -15,7 +15,7 @@ A equipe CodeCrafters, a partir do desenvolvimento do site e de aprofundamentos 
 # LINGUAGENS:
 1. HTML;
 2. CSS;
-3. MYSL;
+3. MYSQL;
 
 # LICENCE:
 Estamos trabalhando com a licença MIT. Temos a permissão para usar, copiar, modificar, mesclar, publicar e distribuir.
